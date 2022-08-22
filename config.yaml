@@ -1,0 +1,68 @@
+baseURL: ""
+languageCode: en-us
+title: Lawrence Lim
+theme: PaperMod
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 1
+        - name: Projects
+          url: projects/
+          weight: 2
+        - name: Articles
+          url: articles/
+          weight: 3
+        - name: Contact
+          url: contact/
+        # - name: Search
+        #   url: search/
+        #   weight: 5
+        - name: Tags
+          url: tags/
+          weight: 6
+
+params:
+  profileMode:
+    enabled: true
+    title: "Lawrence Lim"
+    subtitle: "👷 Web 3 Builder | 💻 CS Student | 💜 NYU Shanghai"
+    imageUrl: "img/ll_profile_pic.jpg"
+    imageTitle: "Image Unavailable"
+    imageWidth: 200
+    imageHeight: 200
+    # buttons:
+    #   - name: Articles
+    #     url: "/articles"
+    #   - name: Github
+    #     url: "https://github.com/larry-lime"
+
+  socialIcons:
+    - name: email
+      url: "mailto:ll4715@nyu.edu"
+    - name: twitter
+      url: "https://twitter.com/lawrence_lim__"
+    - name: github
+      url: "https://github.com/larry-lime"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/lawrence-rx-lim/"
+
+  cover:
+    linkFullImages: true
+
+  # ShowBreadCrumbs: true
+  #
+  # ShowReadingTime: true
+  #
+  # ShowShareButtons: true
+  #
+  # ShowPostNavLinks: true

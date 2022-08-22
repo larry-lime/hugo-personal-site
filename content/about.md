@@ -1,8 +1,19 @@
 ---
-title: "About"
+title: "About Me"
 date: 2022-08-22T20:23:08+08:00
+author: "Lawrence Lim"
 draft: false
 ---
 
-This is my about page
+Youtube Shortcode
+{{< youtube XgjIH8qgyH0 >}}
 
+Twitter Shortcode
+
+Code block
+```python
+def func(array)
+  for i in range(10):
+    print(i)
+  return array
+```

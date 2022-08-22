@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "/"
 languageCode: en-us
 title: Lawrence Lim
 theme: PaperMod
@@ -88,8 +88,3 @@ params:
 
   cover:
     linkFullImages: true
-
-  ShowBreadCrumbs: true
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true

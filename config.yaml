@@ -13,14 +13,44 @@ languages:
       series: series
     menu:
       main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: About
+          url: about/
+          weight: 2
+        - name: Projects
+          url: project/
+          weight: 3
+        - name: Articles
+          url: article/
+          weight: 4
+        - name: Contact
+          url: contact/
+        - name: Categories
+          url: categories/
+          weight: 6
+        - name: Tags
+          url: tags/
+          weight: 7
+
+  zh:
+    languageName: ":zh:"
+    weight: 2
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
         - name: About
           url: about/
           weight: 1
         - name: Projects
-          url: projects/
+          url: project/
           weight: 2
-        - name: Articles
-          url: articles/
+        - name: 文章
+          url: article/
           weight: 3
         - name: Contact
           url: contact/
@@ -59,10 +89,7 @@ params:
   cover:
     linkFullImages: true
 
-  # ShowBreadCrumbs: true
-  #
-  # ShowReadingTime: true
-  #
-  # ShowShareButtons: true
-  #
-  # ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true

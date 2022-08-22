@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lawrence Lim</title>
+    <link>/</link>
+    <description>Recent content on Lawrence Lim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Aug 2022 20:08:33 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 22 Aug 2022 20:23:08 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is my about page</description>
+    </item>
+    
+    <item>
+      <title>First Article</title>
+      <link>/articles/first/</link>
+      <pubDate>Mon, 22 Aug 2022 20:08:33 +0800</pubDate>
+      
+      <guid>/articles/first/</guid>
+      <description>This is my first article</description>
+    </item>
+    
+    <item>
+      <title>Contact Me</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Email: ll4715@nyu.edu
+Social Media: Instagram Discord Twitter Telegram Telegram</description>
+    </item>
+    
+    
+  </channel>
+</rss>

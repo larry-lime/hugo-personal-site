@@ -24,7 +24,11 @@
                 href="/"
                 />
   </url><url>
+    <loc>/tags/blockchain/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -35,6 +39,36 @@
                 hreflang="en"
                 href="/categories/"
                 />
+  </url><url>
+    <loc>/project/durf-research/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/pyfinny/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/research/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/article/</loc>
   </url><url>
     <loc>/contact/</loc>
   </url><url>
@@ -50,18 +84,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/series/"
-                />
-  </url><url>
-    <loc>/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
                 />
   </url>
 </urlset>

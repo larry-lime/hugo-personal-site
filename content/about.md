@@ -9,6 +9,7 @@ Youtube Shortcode
 {{< youtube XgjIH8qgyH0 >}}
 
 Twitter Shortcode
+{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
 
 Code block
 ```python

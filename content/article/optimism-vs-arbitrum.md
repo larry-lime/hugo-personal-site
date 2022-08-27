@@ -1,5 +1,5 @@
 ---
-title: "https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison"
+title: "Optimism vs. Arbitrum - A Complete Comparison"
 date: 2022-07-01
 draft: false
 categories:

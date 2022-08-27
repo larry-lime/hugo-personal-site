@@ -28,7 +28,7 @@ languages:
         - name: Contact
           url: contact/
 
-  zh:
+  中文:
     languageName: ":zh:"
     weight: 2
     taxonomies:

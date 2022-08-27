@@ -61,8 +61,8 @@ params:
     imageWidth: 200
     imageHeight: 200
     buttons:
-      - name: Articles
-        url: "/article"
+      - name: Contact Me
+        url: "/contact"
       - name: Github
         url: "https://github.com/larry-lime"
 

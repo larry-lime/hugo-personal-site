@@ -27,6 +27,8 @@ languages:
           weight: 4
         - name: Contact
           url: contact/
+        - name: Search
+          url: search/
         # - name: Categories
         #   url: categories/
         #   weight: 6
@@ -34,35 +36,27 @@ languages:
         #   url: tags/
         #   weight: 7
 
-  zh:
-    languageName: ":zh:"
-    weight: 2
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: About
-          url: about/
-          weight: 1
-        - name: Projects
-          url: project/
-          weight: 2
-        - name: 文章
-          url: article/
-          weight: 3
-        - name: Contact
-          url: contact/
-        # - name: Search
-        #   url: search/
-        #   weight: 5
-        - name: Tags
-          url: tags/
-          weight: 6
-        - name: Another Page
-          url: tags/
-          weight: 6
+  # zh:
+  #   languageName: ":zh:"
+  #   weight: 2
+  #   taxonomies:
+  #     category: categories
+  #     tag: tags
+  #     series: series
+  #   menu:
+  #     main:
+  #       - name: About
+  #         url: about/
+  #         weight: 1
+  #       - name: Projects
+  #         url: project/
+  #         weight: 2
+  #       - name: 文章
+  #         url: article/
+  #         weight: 3
+  #       - name: Contact
+  #         url: contact/
+  #         weight: 6
 
 params:
   profileMode:
@@ -73,11 +67,11 @@ params:
     imageTitle: "Image Unavailable"
     imageWidth: 200
     imageHeight: 200
-    # buttons:
-    #   - name: Articles
-    #     url: "/articles"
-    #   - name: Github
-    #     url: "https://github.com/larry-lime"
+    buttons:
+      - name: Articles
+        url: "/article"
+      - name: Github
+        url: "https://github.com/larry-lime"
 
   socialIcons:
     - name: email

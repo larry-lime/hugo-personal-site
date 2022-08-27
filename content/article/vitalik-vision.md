@@ -8,5 +8,7 @@ tags:
 - blockchain
 - programming
 cover:
+  image: img/vitalik-ethcc.jpg
+  alt: 'Vialik at ETHCC'
+  caption: 'Vialik in Paris at ETHCC 5'
 ---
-

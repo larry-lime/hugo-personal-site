@@ -7,7 +7,9 @@ draft: false
 
 ## Who am I?
 
-Hey there, my name is Lawrence an
+Hey there, my name is Lawrence Lim and I'm currently 
+
+
 
 Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience researching web3 protocols and currently focus my personal projects on smart contract development.
 

@@ -5,25 +5,6 @@
     <loc>/about/</loc>
     <lastmod>2022-08-22T20:23:08+08:00</lastmod>
   </url><url>
-    <loc>/articles/</loc>
-    <lastmod>2022-08-22T20:08:33+08:00</lastmod>
-  </url><url>
-    <loc>/articles/first/</loc>
-    <lastmod>2022-08-22T20:08:33+08:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-08-22T20:08:33+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url><url>
     <loc>/tags/blockchain/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -40,16 +21,32 @@
                 href="/categories/"
                 />
   </url><url>
-    <loc>/project/durf-research/</loc>
+    <loc>/project/durf/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/pyfinny/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
     <loc>/tags/programming/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/research/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/research/</loc>
@@ -69,6 +66,16 @@
                 />
   </url><url>
     <loc>/article/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/article/vitalik-vision/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/article/zksync-vs-starkware/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/article/optimism-vs-arbitrum/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/contact/</loc>
   </url><url>

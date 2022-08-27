@@ -5,16 +5,12 @@ author: "Lawrence Lim"
 draft: false
 ---
 
-Youtube Shortcode
-{{< youtube XgjIH8qgyH0 >}}
+## Who am I?
 
-Twitter Shortcode
-{{< tweet user="SanDiegoZoo" id="1453110110599868418" >}}
+Hey there, my name is Lawrence an
 
-Code block
-```python
-def func(array)
-  for i in range(10):
-    print(i)
-  return array
-```
+Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience researching web3 protocols and currently focus my personal projects on smart contract development.
+
+Outside of programming, I'm often playing soccer, going to the gym, or organizing club events on campus. I'm very passionate about all things open source.
+
+I'm always interested in hearing about opportunities in . Never hesitate to reach out or connect!

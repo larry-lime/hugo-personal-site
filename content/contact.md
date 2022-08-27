@@ -8,8 +8,9 @@ Email:
 
 Social Media:
 [Instagram](mailto:ll4715@nyu.edu) 
-[Discord]() 
-[Twitter]() 
+
+1. [Telegram](https://t.me/larrylime4132) 
+2. [Twitter](https://twitter.com/lawrence_lim__) 
 [Telegram]() 
 [Telegram]() 
 

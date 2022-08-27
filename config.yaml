@@ -27,12 +27,12 @@ languages:
           weight: 4
         - name: Contact
           url: contact/
-        - name: Categories
-          url: categories/
-          weight: 6
-        - name: Tags
-          url: tags/
-          weight: 7
+        # - name: Categories
+        #   url: categories/
+        #   weight: 6
+        # - name: Tags
+        #   url: tags/
+        #   weight: 7
 
   zh:
     languageName: ":zh:"
@@ -60,6 +60,9 @@ languages:
         - name: Tags
           url: tags/
           weight: 6
+        - name: Another Page
+          url: tags/
+          weight: 6
 
 params:
   profileMode:
@@ -85,6 +88,8 @@ params:
       url: "https://github.com/larry-lime"
     - name: linkedin
       url: "https://www.linkedin.com/in/lawrence-rx-lim/"
+    - name: telegram
+      url: "https://t.me/larrylime4132"
 
   cover:
     linkFullImages: true

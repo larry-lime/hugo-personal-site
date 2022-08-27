@@ -9,10 +9,37 @@
     <lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DURF Research Project</title>
-      <link>/project/durf-research/</link>
+      <link>/project/durf/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/project/durf-research/</guid>
+      <guid>/project/durf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
+      <link>/article/vitalik-vision/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/vitalik-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?</title>
+      <link>/article/zksync-vs-starkware/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/zksync-vs-starkware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison</title>
+      <link>/article/optimism-vs-arbitrum/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/optimism-vs-arbitrum/</guid>
       <description></description>
     </item>
     

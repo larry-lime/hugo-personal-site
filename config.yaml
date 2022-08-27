@@ -80,3 +80,8 @@ params:
 
   cover:
     linkFullImages: true
+
+  assets:
+    favicon: "img/favicon.ico"
+    favicon16x16: "img/favicon-16x16.png"
+    favicon32x32: "img/favicon-32x32.png"

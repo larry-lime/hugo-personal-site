@@ -17,11 +17,29 @@
     </item>
     
     <item>
+      <title>BTC Data Analysis Project - Which is the Most Hyped Crypto?</title>
+      <link>/project/btc-analysis/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/btc-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DURF Research Project - Token Rating and Risk Assesment</title>
       <link>/project/durf/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/project/durf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyfinny - Company Analysis with Python</title>
+      <link>/project/pyfinny/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pyfinny/</guid>
       <description></description>
     </item>
     

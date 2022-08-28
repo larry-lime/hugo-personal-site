@@ -17,11 +17,29 @@
     </item>
     
     <item>
+      <title>BTC Data Analysis Project - Which is the Most Hyped Crypto?</title>
+      <link>/project/btc-analysis/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/btc-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DURF Research Project - Token Rating and Risk Assesment</title>
       <link>/project/durf/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/project/durf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pyfinny - Company Analysis with Python</title>
+      <link>/project/pyfinny/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pyfinny/</guid>
       <description></description>
     </item>
     
@@ -50,6 +68,17 @@
       
       <guid>https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison</guid>
       <description>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Who am I? Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience researching web3 protocols and currently focus my personal projects on smart contract development.
+Outside of programming, I’m often playing soccer, going to the gym, or organizing club events on campus. I’m very passionate about all things open source.
+I’m always interested in hearing about opportunities in . Never hesitate to reach out or connect!</description>
     </item>
     
     <item>

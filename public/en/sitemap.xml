@@ -6,8 +6,8 @@
     <lastmod>2022-08-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="/zh/"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -24,12 +24,15 @@
     <loc>/tags/blockchain/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/project/btc-analysis/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="/zh/categories/"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -43,6 +46,9 @@
     <loc>/tags/programming/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/project/pyfinny/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/research/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -53,8 +59,8 @@
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="/zh/tags/"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -74,6 +80,8 @@
     <loc>https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/about/</loc>
+  </url><url>
     <loc>/contact/</loc>
   </url><url>
     <loc>/search/</loc>
@@ -81,8 +89,8 @@
     <loc>/series/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="/zh/series/"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/series/"
                 />
     <xhtml:link
                 rel="alternate"

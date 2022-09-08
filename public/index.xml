@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lawrence Lim</title>
     <link>/</link>
@@ -45,28 +45,28 @@
     
     <item>
       <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
-      <link>https://tokeninsight.com/en/research/miscellaneous/vitalik-s-vision-ethcc-paris-recap</link>
+      <link>/article/vitalik-vision/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://tokeninsight.com/en/research/miscellaneous/vitalik-s-vision-ethcc-paris-recap</guid>
+      <guid>/article/vitalik-vision/</guid>
       <description>Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&amp;rsquo;s future.</description>
     </item>
     
     <item>
       <title>zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?</title>
-      <link>https://tokeninsight.com/en/research/market-analysis/zksync-vs-starkware-what-s-the-difference-between-the-top-two-zk-rollups</link>
+      <link>/article/zksync-vs-starkware/</link>
       <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://tokeninsight.com/en/research/market-analysis/zksync-vs-starkware-what-s-the-difference-between-the-top-two-zk-rollups</guid>
+      <guid>/article/zksync-vs-starkware/</guid>
       <description>We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&amp;rsquo;s respective roadmaps and ecosystems.</description>
     </item>
     
     <item>
       <title>Optimism vs. Arbitrum - A Complete Comparison</title>
-      <link>https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison</link>
+      <link>/article/optimism-vs-arbitrum/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison</guid>
+      <guid>/article/optimism-vs-arbitrum/</guid>
       <description>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.</description>
     </item>
     
@@ -77,8 +77,8 @@
       
       <guid>/about/</guid>
       <description>Who am I? Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience researching web3 protocols and currently focus my personal projects on smart contract development.
-Outside of programming, I’m often playing soccer, going to the gym, or organizing club events on campus. I’m very passionate about all things open source.
-I’m always interested in hearing about opportunities in . Never hesitate to reach out or connect!</description>
+Besides programming, i&amp;rsquo;m often playing soccer, going to the gym, or organizing community events in Shanghai.
+I’m also very passionate about open source and am always interested in hearing about opportunities in tech especially in web3. Never hesitate to reach out or connect!</description>
     </item>
     
     <item>
@@ -87,9 +87,17 @@ I’m always interested in hearing about opportunities in . Never hesitate to re
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>Email ll4715@nyu.edu Social Media: Instagram LinkedIn Github Twitter Telegram Contact Form Send </description>
+      <description>Email ll4715@nyu.edu Social Media: LinkedIn Github Twitter Telegram </description>
     </item>
     
+    <item>
+      <title>Search</title>
+      <link>/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/search/</guid>
+      <description>search</description>
+    </item>
     
   </channel>
 </rss>

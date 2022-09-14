@@ -1,1 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
 
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Vitalik&#39;s Vision - EthCC Paris Recap | Lawrence Lim</title>
+<meta name="keywords" content="blockchain, programming">
+<meta name="description" content="Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&rsquo;s future.
+Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.&amp;text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article.">
+<meta name="author" content="0xLawrence">
+<link rel="canonical" href="/article/vitalik-vision/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/article/vitalik-vision/">
+<link rel="alternate" hreflang="中文" href="/%E4%B8%AD%E6%96%87/article/vitalik-vision/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Vitalik&#39;s Vision - EthCC Paris Recap" />
+<meta property="og:description" content="Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&rsquo;s future.
+Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.&amp;text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/article/vitalik-vision/" /><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2022-07-27T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-07-27T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Vitalik&#39;s Vision - EthCC Paris Recap"/>
+<meta name="twitter:description" content="Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&rsquo;s future.
+Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.&amp;text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Articles",
+      "item": "/article/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Vitalik's Vision - EthCC Paris Recap",
+      "item": "/article/vitalik-vision/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vitalik's Vision - EthCC Paris Recap",
+  "name": "Vitalik\u0027s Vision - EthCC Paris Recap",
+  "description": "Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum\u0026rsquo;s future.\nPrerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.\u0026amp;text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article.",
+  "keywords": [
+    "blockchain", "programming"
+  ],
+  "articleBody": " Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum’s future.\nPrerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.\u0026text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article. After finishing this article, it’s also encouraged to watch Vitalik’s full panel talk at Ethereum Community Conference 5 (EthCC 5).\nBackground Vitalik Buterin’s panel talk last week at EthCC 5 reminds aficionados of the decentralized web that we are living through a period of unprecedented technological innovation. This article will recap Vitalik’s vision for Ethereum’s future and explain key technical details in plain English.\nMerge, Surge, Verge, … Vitalik begins his panel by summarizing Ethereum’s major development stages (the Merge, Surge, Verge, Purge, and Splurge) first outlined in his December 2021 Ethereum Roadmap.\nThe Ethereum Merge’s primary accomplishment will be to move the network from PoW to PoS. Its key advantage is that the shift will increase the protocol’s decentralization and reduce Ethereum’s electricity expenditure by over 99%.\nNext, the Surge will introduce sharding which will increase Ethereum network capacity, reduce congestion, and increase transaction throughput. Sharding also works synergistically with L2 rollups by distributing the burden of handling data needed by rollups over the entire network.\nThen the Verge will optimize storage on Ethereum and reduce node size by introducing Verkle tree proofs. Verkle trees serve the same function as Merkle trees but are more efficient in proof size. Vitalik explains how, in a tree containing a billion pieces of data, generating a proof with a Merkle tree would require 1 kilobyte, whereas a Verkle tree would be less than 150 bytes, a more than 85% reduction in proof size.\nSource: Vitalik’s Twitter\nThe Purge will involve changes to the network meant to reduce protocol complexity. The changes include Ethereum Improvement Proposal (EIP) 4444, which will remove the need for Ethereum clients to store and retrieve old historical data. Both changes will further reduce node size, enabling a full Ethereum node to be run on lighter hardware, thus making mobile phone staking a possibility.\nFinally, Vitalik skimmed over the Splurge, calling it “all the other fun stuff.”\nCompleting the Transition Following Vitalik’s summary of each Ethereum development phase, he goes more in-depth on the effects of the PoW to PoS transition. One notable change is a decrease in Ether issuance from a fixed 5M per year to an equation of ~166 * sqrt(total_deposits) per year.\nSource: Grand Amphi Théatre Youtube\nHe also mentions that while PoS allows for greater decentralization, it comes with the tradeoff of weak subjectivity. Weak subjectivity is a requirement in PoS blockchains where a new node joining the chain must rely on other nodes to determine the system’s state. Weak subjectivity is a tradeoff compared to objectivity applied by PoW blockchains because a node requires a recent state from a trusted source in order to sync with the blockchain. Weak subjectivity does not exist on PoW blockchains like Bitcoin, where determining the active chain is as simple as finding the longest chain.\nEthereum’s Growth Trajectory Continuing, Vitalik discusses his thoughts on Ethereum’s growth trajectory and the distinct roles of L1 and L2 in the future.\nVitalik explains that Ethereum is currently in a stage of rapid iteration, and the capability of the system will grow at a slower rate after the next few development phases. Vitalik believes that Ethereum will have achieved 55% of its intended functionality once it completes the Merge, putting us past the graph’s inflection point.\nAs improvement to the system’s capability slows, the development of Ethereum should aim to optimize safety, predictability, and decentralization. This process of scaling back rapid iteration is what he calls “settling down.”\nVitalik views L1 and L2 as serving two distinct roles, one for safety and reliability and the other for rapid iteration, high scalability, and high response times. He seems to imply that, as Ethereum’s ecosystem matures, end-users will be interacting with L2 almost by default.\nShort-Term Pain, Long-term Gain Then, Vitalik talks about some examples of short-term pain resulting in long-term gain. A few notable examples are the switch to Verkle trees, EIP 4444, and the banning of the selfdestruct(address) opcode.\nThe main issue with the selfdestruct(address) function is that it adds unnecessary complexity to the EVM without providing much utility. Banning this opcode will break backward compatibility with only a few applications, and with a long lead time, developers should have no problem working around changes.\nThese changes are slated to occur during the Verge and Purge stages of development. The general theme with these changes is that they will break backward compatibility for some dapps, forcing developers to rework features. However, in the long term, they will reduce the overall complexity of Ethereum, decreasing the amount of code in an Ethereum client over time.\nWhat to Focus On? Decentralization As well, Vitalik discusses his decentralization goals for Ethereum, not before mentioning features he’d be scared of implementing. He is scared of implementing features such as adding support for multiple VMs (eWASM and Cairo), implementing base layer SNARKs, and surrendering to the mindset of “it’s okay if no single person can understand the whole protocol because we can specialize.”\nThe apprehension behind implementing multiple VMs and the mindset above is the same: the aversion to multiplying protocol complexity. And in the case of SNARKs, the current readability of SNARK circuits is poor, making them hard to understand and unfit to implement on the Ethereum base layer.\nInstead of focusing on protocol improvements that may undermine the stability of the network, Ethereum needs to focus on decentralization. As new features implemented in the Merge and Verge stabilize and the protocol’s rate of change slows, decentralization will be easier.\nDecentralization goals include an easy-to-use light client allowing users to directly access the consensus layer and better support for home stakers and smaller decentralized staking pools. Decentralization will be improved through a gradual decrease in computational complexity and client storage requirements.\nLong-term Goals At the end of his talk, Vitalik mentions a few of his long-term goals for Ethereum beyond the scope of his 2021 roadmap diagram.\nWhen quantum computers come in the not-too-distant future, Ethereum will need to upgrade cryptography, as Elliptic curve cryptography is not quantum attack resistant. Also, in the case that zkEVMs work well, there is the possibility of increasing transaction space on the base layer, though that requires good zk-SNARK circuit legibility. Finally, Vitalik emphasizes it’s important to keep an open mind, as we don’t know what the future will demand.\nClosing Thoughts Vitalik’s panel talk tell us that his vision for Ethereum is for the base layer to be maximally robust and dependable through decentralization and minimizing code complexity. This security and safety are far more important than continually iterating the base layer’s functionality, as most future innovations will occur on L2. No matter your role in the Web 3 community, there’s a lot of valuable information to extract from Vitalik’s Ethereum conference panel talk. Hopefully, upon finishing this article, you now have a much clearer view of the road that Ethereum is headed on.\n",
+  "wordCount" : "1224",
+  "inLanguage": "en",
+  "datePublished": "2022-07-27T00:00:00Z",
+  "dateModified": "2022-07-27T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "0xLawrence"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/article/vitalik-vision/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lawrence Lim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Lawrence Lim (Alt + H)">Lawrence Lim</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/%E4%B8%AD%E6%96%87/" title=":zh:"
+                            aria-label=":zh:">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/project/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="/article/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Vitalik&#39;s Vision - EthCC Paris Recap
+    </h1>
+    <div class="post-meta"><span title='2022-07-27 00:00:00 +0000 UTC'>July 27, 2022</span>&nbsp;·&nbsp;0xLawrence&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="/%E4%B8%AD%E6%96%87/article/vitalik-vision/">中文</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#prerequisites" aria-label="Prerequisites">Prerequisites</a></li>
+                <li>
+                    <a href="#background" aria-label="Background">Background</a></li>
+                <li>
+                    <a href="#merge-surge-verge-" aria-label="Merge, Surge, Verge, &amp;hellip;">Merge, Surge, Verge, &hellip;</a></li>
+                <li>
+                    <a href="#completing-the-transition" aria-label="Completing the Transition">Completing the Transition</a></li>
+                <li>
+                    <a href="#ethereums-growth-trajectory" aria-label="Ethereum&amp;rsquo;s Growth Trajectory">Ethereum&rsquo;s Growth Trajectory</a></li>
+                <li>
+                    <a href="#short-term-pain-long-term-gain" aria-label="Short-Term Pain, Long-term Gain">Short-Term Pain, Long-term Gain</a></li>
+                <li>
+                    <a href="#what-to-focus-on-decentralization" aria-label="What to Focus On? Decentralization">What to Focus On? Decentralization</a></li>
+                <li>
+                    <a href="#long-term-goals" aria-label="Long-term Goals">Long-term Goals</a></li>
+                <li>
+                    <a href="#closing-thoughts" aria-label="Closing Thoughts">Closing Thoughts</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&rsquo;s future.</p>
+</blockquote>
+<h2 id="prerequisites">Prerequisites<a hidden class="anchor" aria-hidden="true" href="#prerequisites">#</a></h2>
+<p>Knowledge of <a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/">Proof of Work (PoW)</a>, <a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/">Proof of Stake (PoS)</a>, and [Layer-2 (L2)](<a href="https://ethereum.org/en/layer-2/#:~:text=A">https://ethereum.org/en/layer-2/#:~:text=A</a> layer 2 is a separate blockchain that extends Ethereum.&amp;text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article. After finishing this article, it&rsquo;s also encouraged to watch <a href="https://www.youtube.com/watch?v=kGjFTzRTH3Q">Vitalik&rsquo;s full panel talk at Ethereum Community Conference 5 (EthCC 5)</a>.</p>
+<h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<p>Vitalik Buterin&rsquo;s panel talk last week at EthCC 5 reminds aficionados of the decentralized web that we are living through a period of unprecedented technological innovation. This article will recap Vitalik&rsquo;s vision for Ethereum&rsquo;s future and explain key technical details in plain English.</p>
+<h2 id="merge-surge-verge-">Merge, Surge, Verge, &hellip;<a hidden class="anchor" aria-hidden="true" href="#merge-surge-verge-">#</a></h2>
+<p>Vitalik begins his panel by summarizing Ethereum&rsquo;s major development stages (the Merge, Surge, Verge, Purge, and Splurge) first outlined in his <a href="https://twitter.com/VitalikButerin/status/1466411377107558402">December 2021 Ethereum Roadmap</a>.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img202207270534440013a058-d0a2-4da6-8853-029e5e7eb454.jpg" alt="Ethereum Roadmap by Vitalik, Decmeber 2021"  />
+</p>
+<p>The Ethereum Merge&rsquo;s primary accomplishment will be to move the network from PoW to PoS. Its key advantage is that the shift will increase the protocol&rsquo;s decentralization and reduce Ethereum&rsquo;s electricity expenditure by over 99%.</p>
+<p>Next, the Surge will introduce sharding which will increase Ethereum network capacity, reduce congestion, and increase transaction throughput. Sharding also works synergistically with L2 rollups by distributing the burden of handling data needed by rollups over the entire network.</p>
+<p>Then the Verge will optimize storage on Ethereum and reduce node size by introducing Verkle tree proofs. Verkle trees serve the same function as <a href="https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/">Merkle trees</a> but are more efficient in proof size. <a href="https://vitalik.ca/general/2021/06/18/verkle.html">Vitalik explains</a> how, in a tree containing a billion pieces of data, generating a proof with a Merkle tree would require 1 kilobyte, whereas a Verkle tree would be less than 150 bytes, a more than 85% reduction in proof size.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img2022072705344590500a7a-526e-4227-85b3-beeab63ffe75.jpg" alt="Ethereum Roadmap by Vitalik, Decmeber 2021"  />
+Source: <a href="https://twitter.com/VitalikButerin/status/1466411377107558402">Vitalik&rsquo;s Twitter</a></p>
+<p>The Purge will involve changes to the network meant to reduce protocol complexity. The changes include Ethereum Improvement Proposal (EIP) 4444, which will remove the need for Ethereum clients to store and retrieve old historical data. Both changes will further reduce node size, enabling a full Ethereum node to be run on lighter hardware, thus making mobile phone staking a possibility.</p>
+<p>Finally, Vitalik skimmed over the Splurge, calling it &ldquo;all the other fun stuff.&rdquo;</p>
+<h2 id="completing-the-transition">Completing the Transition<a hidden class="anchor" aria-hidden="true" href="#completing-the-transition">#</a></h2>
+<p>Following Vitalik&rsquo;s summary of each Ethereum development phase, he goes more in-depth on the effects of the PoW to PoS transition. One notable change is a decrease in Ether issuance from a fixed 5M per year to an equation of ~166 * sqrt(total_deposits) per year.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img20220727053446149327de-3291-4dfa-93ea-b512dc004ed9.jpg" alt="Vitalik&amp;rsquo;s Speech on EthCC Paris"  />
+Source: <a href="https://www.youtube.com/watch?v=kGjFTzRTH3Q">Grand Amphi Théatre Youtube</a></p>
+<p>He also mentions that while PoS allows for greater decentralization, it comes with the tradeoff of <em>weak subjectivity</em>. <a href="https://academy.binance.com/en/glossary/weak-subjectivity"><em>Weak subjectivity</em></a> is a requirement in PoS blockchains where a new node joining the chain must rely on other nodes to determine the system&rsquo;s state. <em>Weak subjectivity</em> is a tradeoff compared to <em>objectivity</em> applied by PoW blockchains because a node requires a recent state from a trusted source in order to sync with the blockchain. <em>Weak subjectivity</em> does not exist on PoW blockchains like Bitcoin, where determining the active chain is as simple as finding the longest chain.</p>
+<h2 id="ethereums-growth-trajectory">Ethereum&rsquo;s Growth Trajectory<a hidden class="anchor" aria-hidden="true" href="#ethereums-growth-trajectory">#</a></h2>
+<p>Continuing, Vitalik discusses his thoughts on Ethereum&rsquo;s growth trajectory and the distinct roles of L1 and L2 in the future.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img20220727053446826bb270-8fb7-4709-bf65-89eb2cc5f21b.jpg" alt="Vitalik&amp;rsquo;s Speech on EthCC Paris"  />
+</p>
+<p>Vitalik explains that Ethereum is currently in a stage of rapid iteration, and the capability of the system will grow at a slower rate after the next few development phases. Vitalik believes that Ethereum will have achieved 55% of its intended functionality once it completes the Merge, putting us past the graph&rsquo;s inflection point.</p>
+<p>As improvement to the system&rsquo;s capability slows, the development of Ethereum should aim to optimize safety, predictability, and decentralization. This process of scaling back rapid iteration is what he calls &ldquo;settling down.&rdquo;</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img202207270534466246fe05-61f1-4cc8-b301-fe76548095eb.jpg" alt="Vitalik&amp;rsquo;s Speech on EthCC Paris"  />
+</p>
+<p>Vitalik views L1 and L2 as serving two distinct roles, one for safety and reliability and the other for rapid iteration, high scalability, and high response times. He seems to imply that, as Ethereum&rsquo;s ecosystem matures, end-users will be interacting with L2 almost by default.</p>
+<h2 id="short-term-pain-long-term-gain">Short-Term Pain, Long-term Gain<a hidden class="anchor" aria-hidden="true" href="#short-term-pain-long-term-gain">#</a></h2>
+<p>Then, Vitalik talks about some examples of short-term pain resulting in long-term gain. A few notable examples are the switch to Verkle trees, EIP 4444, and the banning of the selfdestruct(address) opcode.</p>
+<p>The main issue with the <a href="https://hackernoon.com/how-to-hack-smart-contracts-self-destruct-and-solidity">selfdestruct(address)</a> function is that it adds unnecessary complexity to the EVM without providing much utility. Banning this opcode will break backward compatibility with only a few applications, and with a long lead time, developers should have no problem working around changes.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img202207270534473d8b4917-211d-44f8-a450-c7a9e46a6b34.jpg" alt="Vitalik&amp;rsquo;s Speech on EthCC Paris"  />
+</p>
+<p>These changes are slated to occur during the Verge and Purge stages of development. The general theme with these changes is that they will break backward compatibility for some dapps, forcing developers to rework features. However, in the long term, they will reduce the overall complexity of Ethereum, decreasing the amount of code in an Ethereum client over time.</p>
+<h2 id="what-to-focus-on-decentralization">What to Focus On? Decentralization<a hidden class="anchor" aria-hidden="true" href="#what-to-focus-on-decentralization">#</a></h2>
+<p>As well, Vitalik discusses his decentralization goals for Ethereum, not before mentioning features he&rsquo;d be scared of implementing. He is scared of implementing features such as adding support for multiple VMs (<a href="https://ewasm.readthedocs.io/">eWASM</a> and <a href="https://www.cairo-lang.org/">Cairo</a>), implementing base layer SNARKs, and surrendering to the mindset of &ldquo;it&rsquo;s okay if no single person can understand the whole protocol because we can specialize.&rdquo;</p>
+<p>The apprehension behind implementing multiple VMs and the mindset above is the same: the aversion to multiplying protocol complexity. And in the case of SNARKs, the current readability of SNARK circuits is poor, making them hard to understand and unfit to implement on the Ethereum base layer.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img20220727053447d6ab2c71-4ae2-4861-8661-24fcc25eef96.jpg" alt="Vitalik&amp;rsquo;s Speech on EthCC Paris"  />
+</p>
+<p>Instead of focusing on protocol improvements that may undermine the stability of the network, Ethereum needs to focus on decentralization. As new features implemented in the Merge and Verge stabilize and the protocol&rsquo;s rate of change slows, decentralization will be easier.</p>
+<p>Decentralization goals include an easy-to-use light client allowing users to directly access the consensus layer and better support for home stakers and smaller decentralized staking pools. Decentralization will be improved through a gradual decrease in computational complexity and client storage requirements.</p>
+<h2 id="long-term-goals">Long-term Goals<a hidden class="anchor" aria-hidden="true" href="#long-term-goals">#</a></h2>
+<p>At the end of his talk, Vitalik mentions a few of his long-term goals for Ethereum beyond the scope of his 2021 roadmap diagram.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img202207270534478f620a99-6436-43d8-9f09-8e8f83182a83.jpg" alt="Vitalik&amp;rsquo;s Speech on EthCC Paris"  />
+</p>
+<p>When quantum computers come in the not-too-distant future, Ethereum will need to upgrade cryptography, as Elliptic curve cryptography is not quantum attack resistant. Also, in the case that zkEVMs work well, there is the possibility of increasing transaction space on the base layer, though that requires good zk-SNARK circuit legibility. Finally, Vitalik emphasizes it&rsquo;s important to keep an open mind, as we don&rsquo;t know what the future will demand.</p>
+<h2 id="closing-thoughts">Closing Thoughts<a hidden class="anchor" aria-hidden="true" href="#closing-thoughts">#</a></h2>
+<p>Vitalik&rsquo;s panel talk tell us that his vision for Ethereum is for the base layer to be maximally robust and dependable through decentralization and minimizing code complexity. This security and safety are far more important than continually iterating the base layer&rsquo;s functionality, as most future innovations will occur on L2. No matter your role in the Web 3 community, there&rsquo;s a lot of valuable information to extract from Vitalik&rsquo;s Ethereum conference panel talk. Hopefully, upon finishing this article, you now have a much clearer view of the road that Ethereum is headed on.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/blockchain/">blockchain</a></li>
+      <li><a href="/tags/programming/">programming</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">Lawrence Lim</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

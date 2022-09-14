@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Articles on Lawrence Lim</title>
+    <link>/%E4%B8%AD%E6%96%87/article/</link>
+    <description>Recent content in Articles on Lawrence Lim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/%E4%B8%AD%E6%96%87/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
+      <link>/%E4%B8%AD%E6%96%87/article/vitalik-vision/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E4%B8%AD%E6%96%87/article/vitalik-vision/</guid>
+      <description>Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&amp;rsquo;s future.</description>
+    </item>
+    
+    <item>
+      <title>zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?</title>
+      <link>/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/</guid>
+      <description>We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&amp;rsquo;s respective roadmaps and ecosystems.</description>
+    </item>
+    
+    <item>
+      <title>Optimism vs. Arbitrum - A Complete Comparison</title>
+      <link>/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/</guid>
+      <description>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.</description>
+    </item>
+    
+  </channel>
+</rss>

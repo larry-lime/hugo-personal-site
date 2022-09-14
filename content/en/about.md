@@ -4,7 +4,6 @@ draft: false
 ---
 ## Who am I?
 
-
 Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience researching web3 protocols and currently focus my personal projects on smart contract development.
 Besides programming, i'm often playing soccer, going to the gym, or organizing community events in Shanghai.
 

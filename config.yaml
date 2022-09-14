@@ -5,7 +5,8 @@ theme: PaperMod
 
 languages:
   en:
-    languageName: "English"
+    languageName: ":en:"
+    contentDir: 'content/en'
     weight: 1
     taxonomies:
       category: categories
@@ -30,6 +31,7 @@ languages:
 
   中文:
     languageName: ":zh:"
+    contentDir: 'content/zh'
     weight: 2
     taxonomies:
       category: categories
@@ -37,25 +39,25 @@ languages:
       series: series
     menu:
       main:
-        - name: Home
+        - name: 主页
           url: /
           weight: 1
-        - name: About
+        - name: 关于
           url: about/
           weight: 2
-        - name: Projects
+        - name: 项目
           url: project/
           weight: 3
-        - name: Articles
+        - name: 文章
           url: article/
           weight: 4
-        - name: Contact
+        - name: 联系
           url: contact/
 params:
   profileMode:
     enabled: true
-    title: "Lawrence Lim"
-    subtitle: "👷 Web 3 Builder | 💻 CS Student | 💜 NYU Shanghai"
+    title: "Lawrence Lim - 林睿骁"
+    subtitle: "👷 Web 3 Builder | 💻 CS Student | 📚 NYU Shanghai"
     imageUrl: "img/ll_profile_pic.jpg"
     imageTitle: "Image Unavailable"
     imageWidth: 200

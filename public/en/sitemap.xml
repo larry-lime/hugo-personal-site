@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/project/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/"
+                />
+  </url><url>
     <loc>/</loc>
     <lastmod>2022-08-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -17,15 +30,42 @@
   </url><url>
     <loc>/project/mechat/</loc>
     <lastmod>2022-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/mechat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/mechat/"
+                />
   </url><url>
     <loc>/tags/blockchain/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/blockchain/"
+                />
   </url><url>
     <loc>/project/btc-analysis/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/btc-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/btc-analysis/"
+                />
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
@@ -42,18 +82,68 @@
   </url><url>
     <loc>/project/durf/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/durf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/durf/"
+                />
   </url><url>
     <loc>/tags/programming/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/programming/"
+                />
   </url><url>
     <loc>/project/pyfinny/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/pyfinny/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/pyfinny/"
+                />
   </url><url>
     <loc>/tags/research/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/research/"
+                />
   </url><url>
     <loc>/categories/research/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/categories/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/research/"
+                />
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
@@ -70,21 +160,94 @@
   </url><url>
     <loc>/article/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/"
+                />
   </url><url>
     <loc>/article/vitalik-vision/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/vitalik-vision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/vitalik-vision/"
+                />
+  </url><url>
+    <loc>/tags/blockchain-programming/</loc>
+    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/article/zksync-vs-starkware/</loc>
     <lastmod>2022-07-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/zksync-vs-starkware/"
+                />
   </url><url>
     <loc>/article/optimism-vs-arbitrum/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/optimism-vs-arbitrum/"
+                />
   </url><url>
     <loc>/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
   </url><url>
     <loc>/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact/"
+                />
   </url><url>
     <loc>/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/search/"
+                />
   </url><url>
     <loc>/series/</loc>
     <xhtml:link

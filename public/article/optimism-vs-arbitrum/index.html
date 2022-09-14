@@ -1,1 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
 
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Optimism vs. Arbitrum - A Complete Comparison | Lawrence Lim</title>
+<meta name="keywords" content="blockchain, programming">
+<meta name="description" content="Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
+Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
+Source: https://l2fees.info/
+At present, Ethereum&rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.">
+<meta name="author" content="0xLawrence">
+<link rel="canonical" href="/article/optimism-vs-arbitrum/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/article/optimism-vs-arbitrum/">
+<link rel="alternate" hreflang="中文" href="/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Optimism vs. Arbitrum - A Complete Comparison" />
+<meta property="og:description" content="Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
+Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
+Source: https://l2fees.info/
+At present, Ethereum&rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/article/optimism-vs-arbitrum/" /><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2022-07-01T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-07-01T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Optimism vs. Arbitrum - A Complete Comparison"/>
+<meta name="twitter:description" content="Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
+Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
+Source: https://l2fees.info/
+At present, Ethereum&rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Articles",
+      "item": "/article/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Optimism vs. Arbitrum - A Complete Comparison",
+      "item": "/article/optimism-vs-arbitrum/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Optimism vs. Arbitrum - A Complete Comparison",
+  "name": "Optimism vs. Arbitrum - A Complete Comparison",
+  "description": "Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.\nBackground Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.\nSource: https://l2fees.info/\nAt present, Ethereum\u0026rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.",
+  "keywords": [
+    "blockchain", "programming"
+  ],
+  "articleBody": " Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.\nBackground Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.\nSource: https://l2fees.info/\nAt present, Ethereum’s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.\nAs a solution to this problem, there exist rollup scaling solutions, classified into Zero-Knowledge[ (ZK) ](https://www.alchemy.com/blog/zero-knowledge-rollups#:~:text=Zero-knowledge rollups (ZK-rollups) are similar to,as one transaction onto Ethereum.)and Optimistic rollups; the latter of which we will focus on in this article. The two most prominent Optimistic rollups, Optimism, and Arbitrum, allow for the transaction of Ether or ERC-20 tokens at a throughput of ~2000-4000 TPS and at a fraction of the baseline Ethereum gas fee.\nOptimistic Rollups Optimistic rollups work by executing transactions on a layer-2 rollup chain while a node, called a sequencer, rolls up and subsequently posts transaction state data to layer-1. This method of processing transactions has the advantage of compressing the data posted to the Ethereum mainnet while also amortizing gas fees among transactions in each rollup batch.\nMoreover, unlike side chains, rollup scaling solutions utilize the blockchain consensus mechanism of layer-one, allowing rollups to benefit from the security of large networks such as Ethereum. Also, as transaction throughput scales on layer-1, it does so too on the rollup layer. So, when combined with the ETH 2.0 merge, rollups have the potential to improve transaction throughput to ~100,000 TPS.\nOptimistic vs. ZK Rollups Unlike Optimistic rollups, which use a dispute-resolution process to secure transactions, ZK rollups utilize Zero-Knowledge mathematical proofs for transaction validation. Some key differences between them are as follows:\nOptimistic rollups have a longer fund withdrawal period due to their security model.\nOptimistic rollups are computationally less complex, resulting in layer-two nodes having lower hardware requirements.\nEthereum Virtual Machine (EVM) compatibility is much simpler on Optimistic rollups than on ZK rollups.\nCurrently, on both Optimism and Arbitrum, centralized sequencers must be trusted to post valid transaction data to layer-1. Theoretically, this is a security risk as it must be assumed there is at least one honest party between a sequencer and validator. However, sequencers are incentivized to act honestly, so in reality, the risk is minimal.\nOptimistic rollups are the more popular of the two protocols with Optimism and Arbitrum controlling ~71% of layer-two market share.\nArbitrum vs. Optimism While Arbitrum and Optimism are both classified as Optimistic rollups, they do have a few fundamental differences.\nFor one, they utilize a different dispute-resolution process to validate transactions. Optimism uses single-round fraud proofs executed on layer-1, whereas Artibrum uses muli-round fraud proofs executed off-chain. Arbitrum’s multi-round fraud proofing is the more advanced of the two, with it being cheaper and more efficient than single-round proofing.\nAlso, while Optimism and Arbitrum are both EVM compatible, Optimism uses Ethereum’s EVM, whereas Arbitrum runs its own Arbitrum Virtual Machine (AVM). This results in Optimism having only a Solidity compiler, while Arbitrum supports all EVM compiled languages (Vyper, Yul, etc).\nEcosystem Comparison Source: https://l2beat.com/#projects\nThe technical differences between Arbitrum and Optimism are very much “under-the-hood” and not very relevant to the average user. But, what is very visible is the size of their ecosystems and communities, which rounds out the differences between the two:\nArbitrum’s total-value-locked (TVL), as of writing on June 28th, 2022, totals $2.09B, more than double that of Optimism’s $807M.\nArbitrums’s official Twitter and Discord currently have ~255K followers and 95K members respectively, whereas Optimism has ~214K Twitter followers and ~44K discord server members.\nOptimism’s ecosystem, though slightly more mature, is the smaller of the two with 50+ dapps compared to Arbitrum’s 80+.\nBoth protocols also share many DEXs, DApps, and lending protocols. The largest platform on Arbitrum is GMX, a decentralized spot and perpetual exchange which prides itself on low swap fees and zero slippage. The second largest is dForce, a DeFi infrastructure protocol providing lending, trading, and staking services.\nSource: https://defillama.com/\nOn Optimism, Synthetix is the largest protocol by TVL and is a derivative liquidity protocol that enables the creation of synthetic assets on the blockchain. Additionally, Velodrome Finance is a decentralized exchange for protocols exclusive to Optimism, created with the intent to ensure better interoperability between DeFi protocols on Optimism.\nCommunity Initiatives Another significant difference between Optimism and Arbitrum is the types of initiatives they hold to engage their respective communities.\nSource: community.optimism.io\nOptimism recently Airdropped its governance token $OP on June 1st, 2022. This will extend Optimism’s governance to its community members through the creation of the Optimism Collective and Optimism Foundation.\nThe Optimism Collective is a DAO, which itself is split into two houses, the Citizen’s House and Token House. Members of these houses join by obtaining $OP, and will receive perks such as voting rights on protocol upgrades, project incentives, and public goods funding.\nThe Optimism Foundation contains (now former) members of the Optimism PBC team, and will act as the steward of the Collective and run governance experiments on its behalf of them.\nArbitrum on the other hand, is not DAO governed, with the protocol run solely by Offchain Labs. To engage their community, they recently launched their eight-week-long NFT event called Arbitrum Odyssey.\nArbitrum Odyssey is a collaborative event between Arbitrum and NFT artists, Ratwell \u0026 Sugoi, where participants must complete various tasks on-chain over the course of eight weeks in order to win prizes. For instance, users may be tasked to provide liquidity on one protocol, make a swap on another, and so on.\nSource: twitter.com/arbitrum\nThe first week, for example, will require users to onboard ETH into Arbitrum via any of the bridges \u0026 Fiat-on-ramps shown in the image above. Users that use the bridge that ends up getting the most volume at the end of the week will also be able to claim a bonus NFT. We wrote a complete overview of the event which can be found here.\nDevelopment Roadmap Another area where Optimism and Arbitrum differ is in their development roadmap. Optimism clearly lays out its development roadmap until 2024, and some of its goals include the implementation of next-generation interactive fraud proofs, sharded rollups, and a decentralized sequencer.\nArbitrum does not have any of its future plans publicly available on either its website or Github. Though, one can speculate that as a competitor to Optimism, Offchain Labs may be tempted by the release of $OP to launch their own governance token sometime in the future.\nClosing Thoughts In my opinion, both Optimism and Arbitrum each have advantages over the other without one of them being objectively better.\nI find Arbitrum’s team makes their marketing prowess quite clear through their ability to rapidly expand their social media presence and attract DApp developers to their chain. And in its current state, the rollup architecture of Arbitrum trumps that of Optimism in both security and longevity due to their superior fraud-proof mechanism and their proprietary VM.\nSomething I quite like about Optimism’s team is that they place a strong emphasis on both the decentralization of its protocol and its governance, more so than Arbitrum’s. It’s also currently cheaper to transact and swap tokens on Optimism, and their promising future plans may enable them to lead the charge in Optimistic rollup innovation which could eventually sway the market in their favor.\n",
+  "wordCount" : "1235",
+  "inLanguage": "en",
+  "datePublished": "2022-07-01T00:00:00Z",
+  "dateModified": "2022-07-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "0xLawrence"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/article/optimism-vs-arbitrum/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lawrence Lim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Lawrence Lim (Alt + H)">Lawrence Lim</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/%E4%B8%AD%E6%96%87/" title=":zh:"
+                            aria-label=":zh:">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/project/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="/article/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Optimism vs. Arbitrum - A Complete Comparison
+    </h1>
+    <div class="post-meta"><span title='2022-07-01 00:00:00 +0000 UTC'>July 1, 2022</span>&nbsp;·&nbsp;0xLawrence&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/">中文</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#background" aria-label="Background">Background</a></li>
+                <li>
+                    <a href="#optimistic-rollups" aria-label="Optimistic Rollups">Optimistic Rollups</a></li>
+                <li>
+                    <a href="#optimistic-vs-zk-rollups" aria-label="Optimistic vs. ZK Rollups">Optimistic vs. ZK Rollups</a></li>
+                <li>
+                    <a href="#arbitrum-vs-optimism" aria-label="Arbitrum vs. Optimism">Arbitrum vs. Optimism</a></li>
+                <li>
+                    <a href="#ecosystem-comparison" aria-label="Ecosystem Comparison">Ecosystem Comparison</a></li>
+                <li>
+                    <a href="#community-initiatives" aria-label="Community Initiatives">Community Initiatives</a></li>
+                <li>
+                    <a href="#development-roadmap" aria-label="Development Roadmap">Development Roadmap</a></li>
+                <li>
+                    <a href="#closing-thoughts" aria-label="Closing Thoughts">Closing Thoughts</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.</p>
+</blockquote>
+<h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<p>Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://image.tokeninsight.com/feishuimage/202207010833367a2599ca-6c67-4deb-a99c-b028445667c7.jpg" alt="img"  />
+Source: <a href="https://l2fees.info/">https://l2fees.info/</a></p>
+<p>At present, Ethereum&rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.</p>
+<p>As a solution to this problem, there exist rollup scaling solutions, classified into Zero-Knowledge[ (ZK) ](<a href="https://www.alchemy.com/blog/zero-knowledge-rollups#:~:text=Zero-knowledge">https://www.alchemy.com/blog/zero-knowledge-rollups#:~:text=Zero-knowledge</a> rollups (ZK-rollups) are similar to,as one transaction onto Ethereum.)and Optimistic rollups; the latter of which we will focus on in this article. The two most prominent Optimistic rollups, Optimism, and Arbitrum, allow for the transaction of Ether or ERC-20 tokens at a throughput of ~2000-4000 TPS and at a fraction of the baseline Ethereum gas fee.</p>
+<h2 id="optimistic-rollups">Optimistic Rollups<a hidden class="anchor" aria-hidden="true" href="#optimistic-rollups">#</a></h2>
+<p>Optimistic rollups work by executing transactions on a layer-2 rollup chain while a node, called a sequencer, rolls up and subsequently posts transaction state data to layer-1. This method of processing transactions has the advantage of compressing the data posted to the Ethereum mainnet while also amortizing gas fees among transactions in each rollup batch.</p>
+<p>Moreover, unlike side chains, rollup scaling solutions utilize the blockchain consensus mechanism of layer-one, allowing rollups to benefit from the security of large networks such as Ethereum. Also, as transaction throughput scales on layer-1, it does so too on the rollup layer. So, when combined with the ETH 2.0 merge, rollups have the potential to improve transaction throughput to <a href="https://twitter.com/VitalikButerin/status/1277961594958471168?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1277961594958471168%7Ctwgr%5E%7Ctwcon%5Es1_c10&amp;ref_url=https%3A%2F%2Fdecrypt.co%2F34204%2Fethereum-2-0-will-walk-and-roll-for-two-years-before-it-can-run">~100,000 TPS</a>.</p>
+<h2 id="optimistic-vs-zk-rollups">Optimistic vs. ZK Rollups<a hidden class="anchor" aria-hidden="true" href="#optimistic-vs-zk-rollups">#</a></h2>
+<p>Unlike Optimistic rollups, which use a dispute-resolution process to secure transactions, ZK rollups utilize Zero-Knowledge mathematical proofs for transaction validation. Some key differences between them are as follows:</p>
+<p>Optimistic rollups have a longer fund withdrawal period due to their security model.</p>
+<p>Optimistic rollups are computationally less complex, resulting in layer-two nodes having lower hardware requirements.</p>
+<p>Ethereum Virtual Machine (EVM) compatibility is much simpler on Optimistic rollups than on ZK rollups.</p>
+<p>Currently, on both Optimism and Arbitrum, centralized sequencers must be trusted to post valid transaction data to layer-1. Theoretically, this is a security risk as it must be assumed there is at least one honest party between a sequencer and validator. However, sequencers are incentivized to act honestly, so in reality, the risk is minimal.</p>
+<p>Optimistic rollups are the more popular of the two protocols with Optimism and Arbitrum controlling ~71% of layer-two market share.</p>
+<h2 id="arbitrum-vs-optimism">Arbitrum vs. Optimism<a hidden class="anchor" aria-hidden="true" href="#arbitrum-vs-optimism">#</a></h2>
+<p>While Arbitrum and Optimism are both classified as Optimistic rollups, they do have a few fundamental differences.</p>
+<p>For one, they utilize a different dispute-resolution process to validate transactions. Optimism uses single-round fraud proofs executed on layer-1, whereas Artibrum uses muli-round fraud proofs executed off-chain. Arbitrum&rsquo;s multi-round fraud proofing is the more advanced of the two, with it being cheaper and more efficient than single-round proofing.</p>
+<p>Also, while Optimism and Arbitrum are both EVM compatible, Optimism uses Ethereum&rsquo;s EVM, whereas Arbitrum runs its own Arbitrum Virtual Machine (AVM). This results in Optimism having only a Solidity compiler, while Arbitrum supports all EVM compiled languages (Vyper, Yul, etc).</p>
+<h2 id="ecosystem-comparison">Ecosystem Comparison<a hidden class="anchor" aria-hidden="true" href="#ecosystem-comparison">#</a></h2>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://image.tokeninsight.com/feishuimage/202207010833362ced18d9-da2b-4148-8c64-5d644a162238.jpg" alt="img"  />
+Source: <a href="https://l2beat.com/#projects">https://l2beat.com/#projects</a></p>
+<p>The technical differences between Arbitrum and Optimism are very much &ldquo;under-the-hood&rdquo; and not very relevant to the average user. But, what is very visible is the size of their ecosystems and communities, which rounds out the differences between the two:</p>
+<p>Arbitrum&rsquo;s total-value-locked (TVL), as of writing on June 28th, 2022, totals $2.09B, more than double that of Optimism&rsquo;s $807M.</p>
+<p>Arbitrums&rsquo;s official Twitter and Discord currently have ~255K followers and 95K members respectively, whereas Optimism has ~214K Twitter followers and ~44K discord server members.</p>
+<p>Optimism&rsquo;s ecosystem, though slightly more mature, is the smaller of the two with 50+ dapps compared to Arbitrum&rsquo;s 80+.</p>
+<p>Both protocols also share many DEXs, DApps, and lending protocols. The largest platform on Arbitrum is <a href="https://tokeninsight.com/en/coins/gmx/overview">GMX</a>, a decentralized spot and perpetual exchange which prides itself on low swap fees and zero slippage. The second largest is <a href="https://tokeninsight.com/en/coins/dforce/overview">dForce</a>, a DeFi infrastructure protocol providing lending, trading, and staking services.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://image.tokeninsight.com/feishuimage/20220701083337cc1763a7-7c27-41c3-b4d2-47ded72eaaf7.jpg" alt="img"  />
+Source: <a href="https://defillama.com/">https://defillama.com/</a></p>
+<p>On Optimism, <a href="https://tokeninsight.com/en/coins/synthetix-network-token/overview">Synthetix </a>is the largest protocol by TVL and is a derivative liquidity protocol that enables the creation of synthetic assets on the blockchain. Additionally, <a href="https://tokeninsight.com/en/coins/velodrome-finance/overview">Velodrome Finance</a> is a decentralized exchange for protocols exclusive to Optimism, created with the intent to ensure better interoperability between DeFi protocols on Optimism.</p>
+<h2 id="community-initiatives">Community Initiatives<a hidden class="anchor" aria-hidden="true" href="#community-initiatives">#</a></h2>
+<p>Another significant difference between Optimism and Arbitrum is the types of initiatives they hold to engage their respective communities.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://image.tokeninsight.com/feishuimage/202207010833376542312c-f339-4adb-9954-fa976602d853.jpg" alt="img"  />
+Source: <a href="https://community.optimism.io/">community.optimism.io</a></p>
+<p>Optimism recently Airdropped its governance token $OP on June 1st, 2022. This will extend Optimism&rsquo;s governance to its community members through the creation of the Optimism Collective and Optimism Foundation.</p>
+<p>The Optimism Collective is a DAO, which itself is split into two houses, the Citizen&rsquo;s House and Token House. Members of these houses join by obtaining $<a href="https://tokeninsight.com/en/coins/optimism/overview">OP</a>, and will receive perks such as voting rights on protocol upgrades, project incentives, and <a href="https://community.optimism.io/docs/governance/allocations/#retroactive-public-goods-funding">public goods funding</a>.</p>
+<p>The Optimism Foundation contains (now former) members of the Optimism PBC team, and will act as the steward of the Collective and run governance experiments on its behalf of them.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://image.tokeninsight.com/feishuimage/20220701083337bc27d5cf-80d2-48d6-b6f9-a536387b05b8.jpg" alt="img"  />
+</p>
+<p>Arbitrum on the other hand, is not DAO governed, with the protocol run solely by <a href="https://offchainlabs.com/">Offchain Labs</a>. To engage their community, they recently launched their eight-week-long NFT event called Arbitrum Odyssey.</p>
+<p>Arbitrum Odyssey is a collaborative event between Arbitrum and NFT artists, Ratwell &amp; Sugoi, where participants must complete various tasks on-chain over the course of eight weeks in order to win prizes. For instance, users may be tasked to provide liquidity on one protocol, make a swap on another, and so on.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://image.tokeninsight.com/feishuimage/20220701083338d9d6dd09-f07e-42b7-be55-b91148fecd6d.jpg" alt="img"  />
+Source: twitter.com/arbitrum</p>
+<p>The first week, for example, will require users to onboard ETH into Arbitrum via any of the bridges &amp; Fiat-on-ramps shown in the image above. Users that use the bridge that ends up getting the most volume at the end of the week will also be able to claim a bonus NFT. We wrote a complete overview of the event which can be found <a href="https://tokeninsight.com/en/research/analysts-pick/the-poems-in-the-arbitrum-odyssey">here</a>.</p>
+<h2 id="development-roadmap">Development Roadmap<a hidden class="anchor" aria-hidden="true" href="#development-roadmap">#</a></h2>
+<p>Another area where Optimism and Arbitrum differ is in their development roadmap. Optimism clearly lays out its <a href="https://www.optimism.io/about">development roadmap</a> until 2024, and some of its goals include the implementation of next-generation interactive fraud proofs, sharded rollups, and a decentralized sequencer.</p>
+<p>Arbitrum does not have any of its future plans publicly available on either its website or Github. Though, one can speculate that as a competitor to Optimism, Offchain Labs may be tempted by the release of $OP to launch their own governance token sometime in the future.</p>
+<h2 id="closing-thoughts">Closing Thoughts<a hidden class="anchor" aria-hidden="true" href="#closing-thoughts">#</a></h2>
+<p>In my opinion, both Optimism and Arbitrum each have advantages over the other without one of them being objectively better.</p>
+<p>I find Arbitrum&rsquo;s team makes their marketing prowess quite clear through their ability to rapidly expand their social media presence and attract DApp developers to their chain. And in its current state, the rollup architecture of Arbitrum trumps that of Optimism in both security and longevity due to their superior fraud-proof mechanism and their proprietary VM.</p>
+<p>Something I quite like about Optimism&rsquo;s team is that they place a strong emphasis on both the decentralization of its protocol and its governance, more so than Arbitrum&rsquo;s. It&rsquo;s also currently cheaper to transact and swap tokens on Optimism, and their promising future plans may enable them to lead the charge in Optimistic rollup innovation which could eventually sway the market in their favor.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/blockchain/">blockchain</a></li>
+      <li><a href="/tags/programming/">programming</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">Lawrence Lim</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,1 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
 
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups? | Lawrence Lim</title>
+<meta name="keywords" content="blockchain, programming">
+<meta name="description" content="We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&rsquo;s respective roadmaps and ecosystems.
+Table of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs. STARKs EVM Compatability StarkNet vs. StarkEx Ecosystem Comparison Development Roadmap Closing Thoughts Prerequisites To get the most out of this article, you should have a solid understanding of blockchain fundamentals and Layer-2 scaling.">
+<meta name="author" content="0xLawrence">
+<link rel="canonical" href="/article/zksync-vs-starkware/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/article/zksync-vs-starkware/">
+<link rel="alternate" hreflang="中文" href="/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?" />
+<meta property="og:description" content="We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&rsquo;s respective roadmaps and ecosystems.
+Table of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs. STARKs EVM Compatability StarkNet vs. StarkEx Ecosystem Comparison Development Roadmap Closing Thoughts Prerequisites To get the most out of this article, you should have a solid understanding of blockchain fundamentals and Layer-2 scaling." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/article/zksync-vs-starkware/" /><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2022-07-15T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-07-15T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?"/>
+<meta name="twitter:description" content="We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&rsquo;s respective roadmaps and ecosystems.
+Table of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs. STARKs EVM Compatability StarkNet vs. StarkEx Ecosystem Comparison Development Roadmap Closing Thoughts Prerequisites To get the most out of this article, you should have a solid understanding of blockchain fundamentals and Layer-2 scaling."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Articles",
+      "item": "/article/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "zkSync vs StarkWare - What's the difference between the top two ZK Rollups?",
+      "item": "/article/zksync-vs-starkware/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "zkSync vs StarkWare - What's the difference between the top two ZK Rollups?",
+  "name": "zkSync vs StarkWare - What\u0027s the difference between the top two ZK Rollups?",
+  "description": "We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol\u0026rsquo;s respective roadmaps and ecosystems.\nTable of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs. STARKs EVM Compatability StarkNet vs. StarkEx Ecosystem Comparison Development Roadmap Closing Thoughts Prerequisites To get the most out of this article, you should have a solid understanding of blockchain fundamentals and Layer-2 scaling.",
+  "keywords": [
+    "blockchain, programming"
+  ],
+  "articleBody": " We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol’s respective roadmaps and ecosystems.\nTable of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs. STARKs EVM Compatability StarkNet vs. StarkEx Ecosystem Comparison Development Roadmap Closing Thoughts Prerequisites To get the most out of this article, you should have a solid understanding of blockchain fundamentals and Layer-2 scaling. Having prior knowledge of Optimistic rollups and zero-knowledge proofs is also highly encouraged.\nBackground zkSync and StarkNet are two of the largest Layer-two (L2) solutions that utilize ZK rollup technology to scale the Ethereum network. Upon finishing this article, you’ll understand how ZK rollups function and learn the key differences in how zkSync and StarkNet apply this technology. Beyond that, you’ll get an overview of zkSync and StarkNet’s ecosystems and their respective development roadmaps.\nZero-Knowledge Rollups Before we cover ZK-rollups, let’s refresh: what are zero-knowledge proofs (ZKP)? And how are they used in rollups? In cryptography, a zero-knowledge proof or protocol is a method by which one party (the prover) can prove to another party (the verifier) that a given statement is true while avoiding disclosure of additional information beyond the fact the statement is true.\nIn the case of ZK-rollups, a sequencer node batches hundreds of rollup chain transactions, generate a SNARK or STARK proof (more on them later), and then posts these transactions to Layer-1. These proofs, known as validity proofs, cryptographically validate the transactions before their state gets posted to the Ethereum Mainnet.\nOptimistic vs. ZK Rollups Source: Vitalik Buterin, zkSync, and MatterLabs Medium\nZKPs allow ZK-rollups to have a negligible fund withdrawal delay plus a higher level of security compared to Optimistic rollups, as you don’t need to wait for the fraud-proof window to close or rely on the honesty of transaction validators.\nBesides those advantages, ZK-rollups also have the potential to enable private transactions in future iterations. Projects like Zcash and Aztec Network have implemented ZK-proof enabled privacy features, and zkSync has openly stated its intent to make their transactions private future.\nZK-rollups have the advantage in theoretical transactions-per-second (TPS) cap, transaction finality time, and security over Optimistic rollups. However, they fall behind in EVM compatibility (which we will explore later). These traits of ZK-rollups lead Vitalik Buterin to believe that in the short term, Optimistic rollups will likely be superior in general-purpose EVM computation. But in the medium to long term, ZK-rollups will win out in all use cases as the technology improves.\nzkSync vs. StarkNet Now that you have an intuitive understanding of how ZK-rollups work, we can begin comparing zkSync and StarkNet. But first, let’s quickly summarize them.\nzkSync V1 is a SNARK proof rollup protocol released by MatterLabs to the Ethereum Mainnet in June 2020. MatterLabs released zkSync V2, the first EVM-compatible ZK-rollup, on the Ethereum Testnet in February 2022.\nStarkNet is a STARK proof rollup protocol released on the Ethereum Testnet in November 2021 by StarkWare Ltd. The protocol, at the time in Alpha version 0.4.0, was released to Mainnet later the same month.\nOne key difference between zkSync and StarkNet is that they utilize different proofing protocols, called SNARKs (Succinct Non-Interactive ARgument of Knowledge) and STARKs (Scalable Transparent ARguments of Knowledge).\nSNARKs vs. STARKs The fundamental differences between SNARK and STARK proofs lie in their setup procedure, scalability, and quantum computer attack resistance.\nZK-SNARKs must undergo a trusted setup phase where a small group of developers must be trusted to not manipulate code or divulge vulnerability information. This setup only needs to be done once and isn’t a significant security risk but nonetheless undermines its decentralization.\nZK-STARKs, on the other hand, use publicly verifiable randomness to create trustless verifiable systems, removing the need for a trusted setup. STARKs are also currently quantum resilient, whereas SNARKs have the possibility of being cryptographically cracked by a quantum computer attack.\nFinally, ZK-STARKs are also more scalable in computational speed and size than ZK-SNARKs, with potential proving speed increases of 10x. However, ZK-STARKs’ one present downside is that the technology is not very mature, which limits its generalizability.\nEVM Compatability So, because they utilize two different proofing methods, zkSync and StarkNet differ in their EVM compatibility. zkSync V2 claims to be 99% EVM compatible with Solidity and Vyper needing to first compile to Yul, an intermediate language, before compiling down to zkEVM bytecode through LLVM. Additionally, zkSync supports their ZKP optimized Rust-like language, Zinc, which compiles directly to bytecode using LLVM. However, Zinc is currently not Turing complete, and its development has halted since September 2021 due to zkSync’s focus on Solidity compatibility.\nSource: Twitter@_supercycled\nStarkNet, on the other hand, is not currently developing for EVM compatibility. To deploy smart contracts on StarkNet, developers need to learn Cairo, a programming language built for STARK provable programs by StarkWare. Alternatively, smart contract developers can also opt to convert their Solidity code to Cairo using Warp, a transpiler developed by NetherindEth. Although there are still a number of Solidity features not supported by the transpiler and are far from matching the EVM compatibility of zkSync V2.\nStarkNet vs. StarkEx You may have heard of StarkEx, StarkWare’s other premier technology. StarkEx is not a ZK-rollup, but instead is a customizable Layer-2 SaaS (Software as a Service) that uses STARK proofs to provide massive scaling for applications.\nAn easy way to not confuse the two is to remember a few key points:\nStarkNet is a general purpose rollup chain. StarkEx is a toolkit made specifically for applications. StarkNet scales Ethereum. StarkEx scales decentralized exchanges. StarkNet allows interoperability between DApps but StarkEx does not. The differences between the two are important to understand because while it’s common for DApps using StarkEx to be included in the StarkNet ecosystem, metrics like TVL are completely separate.\nEcosystem Comparison Now we’ll look at StarkNet and zkSync respective ecosystems and see how they compare. A graphical comparison can be found below.\nSource: StarkNet Ecosystem, zkSync Ecosystem\nzkSync’s (V1 \u0026 V2) TVL, as of writing on July 12th, 2022, is $57M. The entire protocol is also 100% open source and their Github repo currently has 1.4k stars and 350+ forks. Their infrastructure is built mainly in Rust and Typescript. There are 112 DApps currently building on zkSync, with ten live on Mainnet. Some notable projects live on zkSync include Zigzag, a non-custodial order book exchange, and Argent a DeFi and Web3 smart wallet.\nStarkNet’s TVL is currently around $635K with 78 DApps being built and only a few live on Mainnet. Unlike other prominent rollup protocols, StarkNet is currently closed source and its infrastructure is built with Cairo. Some notable protocols on StarkNet include ArgentX, Argent’s Web3 wallet built for StarkNet, and Orbiter Finance, a decentralized cross-rollup bridge.\nWhen comparing their social media presence, zkSync has the slightly larger of the two with almost ~87K more followers on Twitter and comparable member counts on Discord and Telegram. As you can see, both zkSync and StarkNet’s ecosystems are far less mature than the ecosystems of Optimistic rollup protocols like Optimism and Arbitrum. However, both zkSync and StarkNet have strong user and developer communities, promising future growth.\nDevelopment Roadmap In the short term, zkSync’s next major leap following their Testnet launch will be their V2 Alpha Mainnet release, currently without an anticipated release date. zkSync’s long-term plans include full decentralization, a zkSync Token Airdrop, and implementing privacy-protected smart contracts. As a part of their decentralization plans, their future token will be for staking in order to become a validator on the zkSync network.\nStarkWare’s short-term goal is to upgrade their Alpha Mainnet, prepping for a stable release. Their long-term goals are threefold: to establish usability, improve performance, and decentralize.\nStarkWare feels they have accomplished their first goal of establishing usability and are presently focusing their development on throughput, transaction cost, and latency. StarkWare also recently released their decentralization proposal, containing an announcement for a StarkNet token Airdrop, planned for September 2022. StarkNet’s token will be for system governance, transaction fee payments, and participation in StarkNet’s consensus mechanism.\nClosing Thoughts By this point, we have covered how ZK rollups function, why they are implemented, and how they compare to Optimistic rollups. We also answered the question, what’s the differences between zkSync and StarkNet? We did this by examining their ZK-SNARK versus ZK-STARK proofing methods and respective levels of EVM compatibility. Finally, we got a high-level snapshot of both protocols’ ecosystems and roadmaps. Hopefully, this knowledge can serve as more fuel for your journey down the Layer-2 rabbit hole.\n",
+  "wordCount" : "1443",
+  "inLanguage": "en",
+  "datePublished": "2022-07-15T00:00:00Z",
+  "dateModified": "2022-07-15T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "0xLawrence"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/article/zksync-vs-starkware/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lawrence Lim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Lawrence Lim (Alt + H)">Lawrence Lim</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/%E4%B8%AD%E6%96%87/" title=":zh:"
+                            aria-label=":zh:">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/project/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="/article/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?
+    </h1>
+    <div class="post-meta"><span title='2022-07-15 00:00:00 +0000 UTC'>July 15, 2022</span>&nbsp;·&nbsp;0xLawrence&nbsp;|&nbsp;Translations:
+<ul class="i18n_list">
+    <li>
+        <a href="/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/">中文</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#table-of-contents" aria-label="Table of Contents">Table of Contents</a></li>
+                <li>
+                    <a href="#prerequisites" aria-label="Prerequisites">Prerequisites</a></li>
+                <li>
+                    <a href="#background" aria-label="Background">Background</a></li>
+                <li>
+                    <a href="#zero-knowledge-rollups" aria-label="Zero-Knowledge Rollups">Zero-Knowledge Rollups</a></li>
+                <li>
+                    <a href="#optimistic-vs-zk-rollups" aria-label="Optimistic vs. ZK Rollups">Optimistic vs. ZK Rollups</a></li>
+                <li>
+                    <a href="#zksync-vs-starknet" aria-label="zkSync vs. StarkNet">zkSync vs. StarkNet</a></li>
+                <li>
+                    <a href="#snarks-vs-starks" aria-label="SNARKs vs. STARKs">SNARKs vs. STARKs</a></li>
+                <li>
+                    <a href="#evm-compatability" aria-label="EVM Compatability">EVM Compatability</a></li>
+                <li>
+                    <a href="#starknet-vs-starkex" aria-label="StarkNet vs. StarkEx">StarkNet vs. StarkEx</a></li>
+                <li>
+                    <a href="#ecosystem-comparison" aria-label="Ecosystem Comparison">Ecosystem Comparison</a></li>
+                <li>
+                    <a href="#development-roadmap" aria-label="Development Roadmap">Development Roadmap</a></li>
+                <li>
+                    <a href="#closing-thoughts" aria-label="Closing Thoughts">Closing Thoughts</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><blockquote>
+<p>We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&rsquo;s respective roadmaps and ecosystems.</p>
+</blockquote>
+<h2 id="table-of-contents">Table of Contents<a hidden class="anchor" aria-hidden="true" href="#table-of-contents">#</a></h2>
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#background">Background</a></li>
+<li><a href="#zero-knowledge-rollups">Zero-Knowledge Rollups</a></li>
+<li><a href="optimistic-vs.-zk-rollups">Optimistic vs. ZK Rollups</a></li>
+<li><a href="zksync-vs.-starknet">zkSync vs. StarkNet</a></li>
+<li><a href="snarks-vs.-starks">SNARKs vs. STARKs</a></li>
+<li><a href="evm-compatability">EVM Compatability</a></li>
+<li><a href="starknet-vs.-starkex">StarkNet vs. StarkEx</a></li>
+<li><a href="ecosystem-comparison">Ecosystem Comparison</a></li>
+<li><a href="development-roadmap">Development Roadmap</a></li>
+<li><a href="closing-thoughts">Closing Thoughts</a></li>
+</ul>
+<h2 id="prerequisites">Prerequisites<a hidden class="anchor" aria-hidden="true" href="#prerequisites">#</a></h2>
+<p>To get the most out of this article, you should have a solid understanding of blockchain fundamentals and <a href="https://ethereum.org/en/layer-2/">Layer-2</a> scaling. Having prior knowledge of <a href="https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison">Optimistic rollups</a> and <a href="https://www.youtube.com/watch?v=fOGdb1CTu5c">zero-knowledge proofs</a> is also highly encouraged.</p>
+<h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<p>zkSync and StarkNet are two of the largest Layer-two (L2) solutions that utilize ZK rollup technology to scale the Ethereum network. Upon finishing this article, you&rsquo;ll understand how ZK rollups function and learn the key differences in how zkSync and StarkNet apply this technology. Beyond that, you&rsquo;ll get an overview of zkSync and StarkNet&rsquo;s ecosystems and their respective development roadmaps.</p>
+<h2 id="zero-knowledge-rollups">Zero-Knowledge Rollups<a hidden class="anchor" aria-hidden="true" href="#zero-knowledge-rollups">#</a></h2>
+<p>Before we cover ZK-rollups, let&rsquo;s refresh: what are zero-knowledge proofs (ZKP)? And how are they used in rollups? In cryptography, a zero-knowledge proof or protocol is a method by which one party (the prover) can prove to another party (the verifier) that a given statement is true while avoiding disclosure of additional information beyond the fact the statement is true.</p>
+<p>In the case of ZK-rollups, a sequencer node batches hundreds of rollup chain transactions, generate a SNARK or STARK proof (more on them later), and then posts these transactions to Layer-1. These proofs, known as validity proofs, cryptographically validate the transactions before their state gets posted to the Ethereum Mainnet.</p>
+<h2 id="optimistic-vs-zk-rollups">Optimistic vs. ZK Rollups<a hidden class="anchor" aria-hidden="true" href="#optimistic-vs-zk-rollups">#</a></h2>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/content/img/Optimistic_vs._ZK_Rollups.png" alt="Technical comparison of Optimistic Rollup and ZK-Rollup"  />
+Source: <a href="https://vitalik.ca/general/2021/01/05/rollup.html">Vitalik Buterin</a>, <a href="https://www.youtube.com/watch?v=el-9YYGN1nw&amp;feature=youtu.be">zkSync</a>, and <a href="https://blog.matter-labs.io/optimistic-vs-zk-rollup-deep-dive-ea141e71e075">MatterLabs Medium</a></p>
+<p>ZKPs allow ZK-rollups to have a negligible fund withdrawal delay plus a higher level of security compared to Optimistic rollups, as you don&rsquo;t need to wait for the fraud-proof window to close or rely on the honesty of transaction validators.</p>
+<p>Besides those advantages, ZK-rollups also have the potential to enable private transactions in future iterations. Projects like <a href="https://z.cash/">Zcash </a>and <a href="https://aztec.network/">Aztec Network</a> have implemented ZK-proof enabled privacy features, and zkSync has openly <a href="https://docs.zksync.io/userdocs/privacy/">stated</a> its intent to make their transactions private future.</p>
+<p>ZK-rollups have the advantage in theoretical transactions-per-second (TPS) cap, transaction finality time, and security over Optimistic rollups. However, they fall behind in EVM compatibility (which we will explore later). These traits of ZK-rollups <a href="https://vitalik.ca/general/2021/01/05/rollup.html">lead Vitalik Buterin to believe that in the short term, Optimistic rollups will likely be superior in general-purpose EVM computation</a>. But in the medium to long term, ZK-rollups will win out in all use cases as the technology improves.</p>
+<h2 id="zksync-vs-starknet">zkSync vs. StarkNet<a hidden class="anchor" aria-hidden="true" href="#zksync-vs-starknet">#</a></h2>
+<p>Now that you have an intuitive understanding of how ZK-rollups work, we can begin comparing zkSync and StarkNet. But first, let&rsquo;s quickly summarize them.</p>
+<p>zkSync V1 is a SNARK proof rollup protocol released by MatterLabs to the Ethereum Mainnet in June 2020. MatterLabs released zkSync V2, the first EVM-compatible ZK-rollup, on the Ethereum Testnet in February 2022.</p>
+<p>StarkNet is a STARK proof rollup protocol released on the Ethereum Testnet in November 2021 by StarkWare Ltd. The protocol, at the time in Alpha version 0.4.0, was released to Mainnet later the same month.</p>
+<p>One key difference between zkSync and StarkNet is that they utilize different proofing protocols, called SNARKs (Succinct Non-Interactive ARgument of Knowledge) and STARKs (Scalable Transparent ARguments of Knowledge).</p>
+<h2 id="snarks-vs-starks">SNARKs vs. STARKs<a hidden class="anchor" aria-hidden="true" href="#snarks-vs-starks">#</a></h2>
+<p>The fundamental differences between SNARK and STARK proofs lie in their setup procedure, scalability, and quantum computer attack resistance.</p>
+<p>ZK-SNARKs must undergo a trusted setup phase where a small group of developers must be trusted to not manipulate code or divulge vulnerability information. This setup only needs to be done once and isn&rsquo;t a significant security risk but nonetheless undermines its decentralization.</p>
+<p>ZK-STARKs, on the other hand, use publicly verifiable randomness to create trustless verifiable systems, removing the need for a trusted setup. STARKs are also currently quantum resilient, whereas SNARKs have the possibility of being cryptographically cracked by a quantum computer attack.</p>
+<p>Finally, ZK-STARKs are also more scalable in computational speed and size than ZK-SNARKs, with potential proving speed increases of 10x. However, ZK-STARKs&rsquo; one present downside is that the technology is not very mature, which limits its generalizability.</p>
+<h2 id="evm-compatability">EVM Compatability<a hidden class="anchor" aria-hidden="true" href="#evm-compatability">#</a></h2>
+<p>So, because they utilize two different proofing methods, zkSync and StarkNet differ in their EVM compatibility. zkSync V2 claims to be 99% EVM compatible with Solidity and Vyper needing to first compile to <a href="https://docs.soliditylang.org/en/latest/yul.html">Yul</a>, an intermediate language, before compiling down to zkEVM bytecode through <a href="https://llvm.org/">LLVM</a>. Additionally, zkSync supports their ZKP optimized Rust-like language, Zinc, which compiles directly to bytecode using LLVM. However, Zinc is currently not Turing complete, and its development has halted since September 2021 due to zkSync&rsquo;s focus on Solidity compatibility.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/content/img/image144.png" alt="img"  />
+Source: <a href="https://twitter.com/_supercycled/status/1469244938605019143">Twitter@_supercycled</a></p>
+<p>StarkNet, on the other hand, is not currently developing for EVM compatibility. To deploy smart contracts on StarkNet, developers need to learn Cairo, a programming language built for STARK provable programs by StarkWare. Alternatively, smart contract developers can also opt to convert their Solidity code to Cairo using <a href="https://github.com/NethermindEth/warp">Warp</a>, a transpiler developed by NetherindEth. Although there are still a number of Solidity features not supported by the transpiler and are far from matching the EVM compatibility of zkSync V2.</p>
+<h2 id="starknet-vs-starkex">StarkNet vs. StarkEx<a hidden class="anchor" aria-hidden="true" href="#starknet-vs-starkex">#</a></h2>
+<p>You may have heard of StarkEx, StarkWare&rsquo;s other premier technology. StarkEx is not a ZK-rollup, but instead is a customizable Layer-2 SaaS (Software as a Service) that uses STARK proofs to provide massive scaling for applications.</p>
+<p>An easy way to not confuse the two is to remember a few key points:</p>
+<ol>
+<li>StarkNet is a general purpose rollup chain. StarkEx is a toolkit made specifically for applications.</li>
+<li>StarkNet scales Ethereum. StarkEx scales decentralized exchanges.</li>
+<li>StarkNet allows interoperability between DApps but StarkEx does not.</li>
+</ol>
+<p>The differences between the two are important to understand because while it&rsquo;s common for DApps using StarkEx to be included in the StarkNet ecosystem, metrics like TVL are completely separate.</p>
+<h2 id="ecosystem-comparison">Ecosystem Comparison<a hidden class="anchor" aria-hidden="true" href="#ecosystem-comparison">#</a></h2>
+<p>Now we&rsquo;ll look at StarkNet and zkSync respective ecosystems and see how they compare. A graphical comparison can be found below.</p>
+<p><img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/content/img/Landscope2.png" alt="Ecosystem landscape of StarkNet &amp;amp; zkSync"  />
+Source: <a href="https://www.starknet-ecosystem.com/">StarkNet Ecosystem</a>, <a href="https://ecosystem.zksync.io/">zkSync Ecosystem</a></p>
+<p>zkSync&rsquo;s (V1 &amp; V2) TVL, as of writing on July 12th, 2022, is $57M. The entire protocol is also <a href="https://github.com/matter-labs/zksync">100% open source</a> and their Github repo currently has 1.4k stars and 350+ forks. Their infrastructure is built mainly in Rust and Typescript. There are 112 DApps currently building on zkSync, with ten live on Mainnet. Some notable projects live on zkSync include <a href="https://info.zigzag.exchange/">Zigzag</a>, a non-custodial order book exchange, and <a href="https://www.argent.xyz/">Argent</a> a DeFi and Web3 smart wallet.</p>
+<p>StarkNet&rsquo;s TVL is currently around $635K with 78 DApps being built and only a few live on Mainnet. Unlike other prominent rollup protocols, StarkNet is currently closed source and its infrastructure is built with Cairo. Some notable protocols on StarkNet include <a href="https://www.argent.xyz/argent-x/">ArgentX</a>, Argent&rsquo;s Web3 wallet built for StarkNet, and <a href="https://orbiter-finance.medium.com/">Orbiter Finance</a>, a decentralized cross-rollup bridge.</p>
+<p>When comparing their social media presence, zkSync has the slightly larger of the two with almost ~87K more followers on Twitter and comparable member counts on Discord and Telegram.<img loading="lazy" src="https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/content/img/Social_Data2.png" alt="img"  />
+</p>
+<p>As you can see, both zkSync and StarkNet&rsquo;s ecosystems are far less mature than the ecosystems of Optimistic rollup protocols like <a href="https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison">Optimism and Arbitrum</a>. However, both zkSync and StarkNet have strong user and developer communities, promising future growth.</p>
+<h2 id="development-roadmap">Development Roadmap<a hidden class="anchor" aria-hidden="true" href="#development-roadmap">#</a></h2>
+<p>In the short term, zkSync&rsquo;s next major leap following their Testnet launch will be their V2 Alpha Mainnet release, currently without an anticipated release date. zkSync&rsquo;s long-term plans include full decentralization, a zkSync Token Airdrop, and implementing privacy-protected smart contracts. As a part of their decentralization plans, their future token will be for staking in order to become a validator on the zkSync network.</p>
+<p>StarkWare&rsquo;s short-term goal is to upgrade their Alpha Mainnet, prepping for a stable release. Their long-term goals are threefold: to establish usability, improve performance, and decentralize.</p>
+<p>StarkWare feels they have accomplished their first goal of establishing usability and are presently focusing their development on throughput, transaction cost, and latency. StarkWare also recently released their decentralization proposal, containing <a href="https://medium.com/starkware/part-1-starknet-sovereignty-a-decentralization-proposal-bca3e98a01ef">an announcement for a StarkNet token Airdrop</a>, planned for September 2022. StarkNet&rsquo;s token will be for system governance, transaction fee payments, and participation in StarkNet&rsquo;s consensus mechanism.</p>
+<h2 id="closing-thoughts">Closing Thoughts<a hidden class="anchor" aria-hidden="true" href="#closing-thoughts">#</a></h2>
+<p>By this point, we have covered how ZK rollups function, why they are implemented, and how they compare to Optimistic rollups. We also answered the question, what&rsquo;s the differences between zkSync and StarkNet? We did this by examining their ZK-SNARK versus ZK-STARK proofing methods and respective levels of EVM compatibility. Finally, we got a high-level snapshot of both protocols&rsquo; ecosystems and roadmaps. Hopefully, this knowledge can serve as more fuel for your journey down the Layer-2 rabbit hole.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/blockchain-programming/">blockchain, programming</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">Lawrence Lim</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

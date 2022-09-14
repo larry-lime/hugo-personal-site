@@ -2,7 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/%E4%B8%AD%E6%96%87/project/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/project/mechat/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/mechat/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/mechat/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/tags/blockchain/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/blockchain/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/project/btc-analysis/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/btc-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/btc-analysis/"
+                />
+  </url><url>
     <loc>/%E4%B8%AD%E6%96%87/categories/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,16 +80,170 @@
                 href="/%E4%B8%AD%E6%96%87/categories/"
                 />
   </url><url>
-    <loc>/%E4%B8%AD%E6%96%87/</loc>
+    <loc>/%E4%B8%AD%E6%96%87/project/durf/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/project/durf/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/"
+                href="/%E4%B8%AD%E6%96%87/project/durf/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/tags/programming/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/programming/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/project/pyfinny/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/pyfinny/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/pyfinny/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/tags/research/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/research/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/categories/research/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/categories/research/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/tags/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/article/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/article/vitalik-vision/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/vitalik-vision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/vitalik-vision/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/</loc>
+    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/zksync-vs-starkware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/optimism-vs-arbitrum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/about/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/contact/"
+                />
+  </url><url>
+    <loc>/%E4%B8%AD%E6%96%87/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/search/"
                 />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/series/</loc>
@@ -36,18 +256,6 @@
                 rel="alternate"
                 hreflang="中文"
                 href="/%E4%B8%AD%E6%96%87/series/"
-                />
-  </url><url>
-    <loc>/%E4%B8%AD%E6%96%87/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/tags/"
                 />
   </url>
 </urlset>

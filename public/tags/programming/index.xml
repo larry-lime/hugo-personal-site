@@ -23,7 +23,8 @@
       
       <guid>/article/vitalik-vision/</guid>
       <description>Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&amp;rsquo;s future.
-Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.&amp;amp;text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article.</description>
+This article was first published to TokenInsight by Lawrence Lim original article linked here
+Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.</description>
     </item>
     
     <item>
@@ -33,6 +34,7 @@ Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer
       
       <guid>/article/optimism-vs-arbitrum/</guid>
       <description>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
+This article was first published to TokenInsight by Lawrence Lim. Original article linked here
 Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
 Source: https://l2fees.info/
 At present, Ethereum&amp;rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.</description>

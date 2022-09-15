@@ -14,6 +14,8 @@ ShowBreadCrumbs: true
 ---
 > We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol's respective roadmaps and ecosystems.
 
+*This article was first published to [TokenInsight](https://tokeninsight.com/en/cryptocurrencies) by Lawrence Lim. Original article linked [here](https://tokeninsight.com/en/research/market-analysis/zksync-vs-starkware-what-s-the-difference-between-the-top-two-zk-rollups)*
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)

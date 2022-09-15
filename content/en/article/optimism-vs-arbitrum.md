@@ -14,6 +14,8 @@ ShowBreadCrumbs: true
 ---
 > Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
 
+*This article was first published to [TokenInsight](https://tokeninsight.com/en/cryptocurrencies) by Lawrence Lim. Original article linked [here](https://tokeninsight.com/en/research/miscellaneous/vitalik-s-vision-ethcc-paris-recap)*
+
 ## Background
 
 Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.

@@ -14,6 +14,8 @@ ShowBreadCrumbs: true
 ---
 > Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum's future.
 
+*This article was first published to [TokenInsight](https://tokeninsight.com/en/cryptocurrencies) by Lawrence Lim original article linked [here](https://tokeninsight.com/en/research/market-analysis/optimism-vs.-arbitrum-a-complete-comparison)*
+
 ## Prerequisites
 
 Knowledge of [Proof of Work (PoW)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/), [Proof of Stake (PoS)](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.&text=A layer 2 blockchain regularly,layer 1 protocol (Ethereum).) scaling is needed to get the most out of this article. After finishing this article, it's also encouraged to watch [Vitalik's full panel talk at Ethereum Community Conference 5 (EthCC 5)](https://www.youtube.com/watch?v=kGjFTzRTH3Q).

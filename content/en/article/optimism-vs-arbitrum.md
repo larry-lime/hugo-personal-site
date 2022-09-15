@@ -5,7 +5,12 @@ draft: false
 author: 0xLawrence
 categories: ["research"]
 tags: ["blockchain","programming"]
+cover:
+  image: img/optimism_vs_arbitrum.jpg
+  alt: "Optimism vs. Arbitrum"
 ShowToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
 ---
 > Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
 

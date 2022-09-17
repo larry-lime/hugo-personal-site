@@ -6,7 +6,29 @@
     <description>Recent content on Lawrence Lim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Sep 2022 01:26:38 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ethereum Crowd Funding – Full Stack Solidity &amp; JavaScript DApp</title>
+      <link>/project/hh-fund-me/</link>
+      <pubDate>Sun, 18 Sep 2022 01:26:38 +0800</pubDate>
+      
+      <guid>/project/hh-fund-me/</guid>
+      <description>About The Project Smart Contract Raffle (GH Repo) Up is a Python GUI desktop chat app built with Tkinter. This app was also created as the final project for NYU Shanghai&amp;rsquo;s Introduction to Computer Science course. Here we will detail several of its key features and outline its development lifecycle.
+Built With Our chat application used the following languages and libraries in our development.
+Python Tkinter GUI Library Ngrok Network Application Getting Started Prerequisites This project depends on the python tkinter GUI library and ngrok network app.</description>
+    </item>
+    
+    <item>
+      <title>Smart Contract Raffle – DApp Backend</title>
+      <link>/project/hh-raffle/</link>
+      <pubDate>Sun, 18 Sep 2022 01:26:30 +0800</pubDate>
+      
+      <guid>/project/hh-raffle/</guid>
+      <description>About The Project Smart Contract Raffle (GH Repo) Up is a Python GUI desktop chat app built with Tkinter. This app was also created as the final project for NYU Shanghai&amp;rsquo;s Introduction to Computer Science course. Here we will detail several of its key features and outline its development lifecycle.
+Built With Our chat application used the following languages and libraries in our development.
+Python Tkinter GUI Library Ngrok Network Application Getting Started Prerequisites This project depends on the python tkinter GUI library and ngrok network app.</description>
+    </item>
+    
     <item>
       <title>MeChat - Python GUI Desktop Chat App</title>
       <link>/project/mechat/</link>
@@ -24,24 +46,6 @@ Python Tkinter GUI Library Ngrok Network Application Getting Started Prerequisit
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/project/btc-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DURF Research Project - Token Rating and Risk Assesment</title>
-      <link>/project/durf/</link>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/project/durf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pyfinny - Company Analysis with Python</title>
-      <link>/project/pyfinny/</link>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/project/pyfinny/</guid>
       <description></description>
     </item>
     

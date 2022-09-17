@@ -82,16 +82,6 @@
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/project/durf/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/project/durf/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/project/durf/"
-                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/tags/programming/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
@@ -108,29 +98,9 @@
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/project/pyfinny/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/project/pyfinny/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/project/pyfinny/"
-                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/tags/research/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/research/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/tags/research/"
-                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/categories/research/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>

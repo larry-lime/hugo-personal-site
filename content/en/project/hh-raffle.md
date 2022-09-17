@@ -9,45 +9,43 @@ ShowBreadCrumbs: true
 
 ## About The Project
 
-Smart Contract Raffle [(GH Repo)](https://github.com/larry-lime/fund-me-backend) Up is a Python GUI desktop chat app built with Tkinter. This app was also created as the final project for NYU Shanghai's Introduction to Computer Science course. Here we will detail several of its key features and outline its development lifecycle.
-
-### Built With
-
-Our chat application used the following languages and libraries in our development.
-
-* Python
-* Tkinter GUI Library
-* Ngrok Network Application
+My Smart Conract Raffle project is the Solidity smart contract backend of automated and decentralized raffle. The DApp utilizes verifiable random numbers from Chainlink VRFs and uses Chainlink keepers to update or "upkeep" the live contract to maintain the integrity of the raffle. This project was created as a part of Patrick Collin's Solidity and Javascript smart contract course with Free Code Camp.
 
 ## Getting Started
 
 ### Prerequisites
 
-This project depends on the python tkinter GUI library and ngrok network app.
-
-* [ngrok](https://ngrok.com/download)
-* tkinter
-  ```shell
-  pip install tkinter
-  ```
+* [yarn](https://classic.yarnpkg.com/lang/en/docs/install/)
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo (backend)
 ```shell
-git clone https://github.com/larry-lime/MeChat
+git clone https://github.com/larry-lime/smart-contract-raffle-backend.git
+```
+2. Run yarn
+```shell
+cd smart-contract-raffle-backend && yarn
 ```
 
 ## Usage
 
-{{< youtube id="mXwYOLjKYxg" title="Demo Video" >}}
-[Presentation Slides](https://docs.google.com/presentation/d/1VYCY3Z98NmaQVLRU85uHsY7zH3i7-3MLiox6nEphETY/edit#slide=id.g10e271dcd0d_1_401) 
+####  Deploy to local blockchain
+  ```shell
+  yarn hardhat deploy
+  ```
+####  Run tests
+  ```shell
+  yarn hardhat test
+  ```
+####  Test Coverage
+  ```shell
+  yarn hardhat deploy
+  ```
+####  Interact with live contract
 
-* Start and run your own chat server
-  ```shell
-  python3 chat_server.py
-  ```
-* Start and connect a chat client
-  ```shell
-  python3 chat_cmdl_client.py
-  ```
+1. Go to the [rinkeby etherscan contract ID](https://rinkeby.etherscan.io/address/0xB2Bf3C63C8aFD537a76fD346Ab88a24B6C76aAf5) 
+2. Next, click on "Contract"
+3. Then, click on "Read Contract" and then interact with the functions in the form to read state values and data from the contract
+4. Finally, click on "Write Contract" and connect web3 to write and interact with the live contract.
+

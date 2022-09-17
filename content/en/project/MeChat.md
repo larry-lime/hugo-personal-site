@@ -9,6 +9,9 @@ author: ["Lawrence Lim", "Vicky Liu"]
 
 ## About The Project
 
+{{< youtube id="mXwYOLjKYxg" title="Demo Video" >}}
+[Presentation Slides](https://docs.google.com/presentation/d/1VYCY3Z98NmaQVLRU85uHsY7zH3i7-3MLiox6nEphETY/edit#slide=id.g10e271dcd0d_1_401) 
+
 MeChat [(GH Repo)](https://github.com/larry-lime/MeChat) Up is a Python GUI desktop chat app built with Tkinter. This app was also created as the final project for NYU Shanghai's Introduction to Computer Science course. Here we will detail several of its key features and outline its development lifecycle.
 
 ### Built With
@@ -39,9 +42,6 @@ git clone https://github.com/larry-lime/MeChat
 ```
 
 ## Usage
-
-{{< youtube id="mXwYOLjKYxg" title="Demo Video" >}}
-[Presentation Slides](https://docs.google.com/presentation/d/1VYCY3Z98NmaQVLRU85uHsY7zH3i7-3MLiox6nEphETY/edit#slide=id.g10e271dcd0d_1_401) 
 
 * Start and run your own chat server
   ```shell

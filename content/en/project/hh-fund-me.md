@@ -9,7 +9,7 @@ ShowBreadCrumbs: true
 
 ## About The Project
 
-My Ethereum Crowd Funding project is full stack decentralized application built who's [backend](https://github.com/larry-lime/fund-me-backend) is built with Solidity and the Hardhat Ethereum development framework. Tests are done with Mocha & Chai in Javascript. Additionally, it utilizes Chainlink pricefeed oracles and its [frontend](https://github.com/larry-lime/solidity-js-fcc) is coded in vanilla HTML/CSS and Javascript.
+My Ethereum Crowd Funding project is full stack decentralized application built who's [backend](https://github.com/larry-lime/fund-me-backend) is built with Solidity and the Hardhat Ethereum development framework. Tests are done with Mocha & Chai in Javascript. Additionally, it utilizes Chainlink pricefeed oracles and its [frontend](https://github.com/larry-lime/solidity-js-fcc) is coded in vanilla HTML/CSS and Javascript. This project was created as a part of Patrick Collin's Solidity and Javascript smart contract course with Free Code Camp.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ My Ethereum Crowd Funding project is full stack decentralized application built 
 
 1. Clone the repo (backend)
 ```shell
-git clone https://github.com/larry-lime/fund-me-backend/tree/af4c1cd8139fdb8ec96244d58942d45f3dd7692a
+git clone https://github.com/larry-lime/fund-me-backend.git
 ```
 2. Run yarn
 ```shell

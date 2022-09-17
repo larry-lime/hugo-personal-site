@@ -9,7 +9,7 @@ author: ["Lawrence Lim", "Vicky Liu"]
 
 ## About The Project
 
-MeChat [(GH Repo)](https://github.com/larry-lime/MeChat)Up is a Python GUI desktop chat app built with Tkinter. This app was also created as the final project for NYU Shanghai's Introduction to Computer Science course. Here we will detail several of its key features and outline its development lifecycle.
+MeChat [(GH Repo)](https://github.com/larry-lime/MeChat) Up is a Python GUI desktop chat app built with Tkinter. This app was also created as the final project for NYU Shanghai's Introduction to Computer Science course. Here we will detail several of its key features and outline its development lifecycle.
 
 ### Built With
 

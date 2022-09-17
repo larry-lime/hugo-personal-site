@@ -5,9 +5,6 @@ draft: false
 author: ["Lawrence Lim"]
 categories: ["research"]
 tags: ["blockchain, programming"]
-cover:
-  image: img/zkSync_vs._StarkWare.jpg
-  alt: "zkSync vs. StarkWare"
 ShowToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

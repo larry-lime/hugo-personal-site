@@ -5,9 +5,6 @@ draft: false
 author: ["Lawrence Lim"]
 categories: ["research"]
 tags: ["blockchain","programming"]
-cover:
-  image: img/optimism_vs_arbitrum.jpg
-  alt: "Optimism vs. Arbitrum"
 ShowToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

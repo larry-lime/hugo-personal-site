@@ -5,9 +5,6 @@ draft: false
 author: ["Lawrence Lim"]
 categories: ["research"]
 tags: ["blockchain", "programming"]
-cover:
-  image: img/vitalik_vision.jpg
-  alt: "Vitalik's Vision"
 ShowToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

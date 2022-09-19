@@ -58,8 +58,8 @@ params:
     enabled: true
     title: "Lawrence Lim"
     subtitle: "👷 Web 3 Builder | 💻 CS Student | 📚 NYU Shanghai"
-    imageUrl: "img/ll_profile_pic.jpg"
-    imageTitle: "Image Unavailable"
+    imageUrl: "img/ll_profile_pic_new.jpg"
+    imageTitle: "Profile Picture"
     imageWidth: 200
     imageHeight: 200
     buttons:
@@ -79,6 +79,7 @@ params:
       url: "https://www.linkedin.com/in/lawrence-rx-lim/"
     - name: telegram
       url: "https://t.me/larrylime4132"
+    # https://linktr.ee/lawrencelim
 
   cover:
     linkFullImages: true

@@ -44,7 +44,7 @@ cd fund-me-backend && yarn
   ```
 ####  Test Coverage
   ```shell
-  yarn hardhat deploy
+  yarn hardhat coverage
   ```
 <!--TODO: Update this-->
 ####  Interact with frontend

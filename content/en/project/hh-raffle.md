@@ -40,7 +40,7 @@ cd smart-contract-raffle-backend && yarn
   ```
 ####  Test Coverage
   ```shell
-  yarn hardhat deploy
+  yarn hardhat coverage
   ```
 ####  Interact with live contract
 

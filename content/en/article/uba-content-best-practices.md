@@ -5,7 +5,6 @@ draft: true
 author: 0xLawrence
 ShowToc: true
 ---
-
 ## Introduction
 This article will be an overview of best practices to follow when publishing and managing content on my UBA's website
 
@@ -52,6 +51,75 @@ This article will be an overview of best practices to follow when publishing and
        <!--*|END:IF|*-->
    ```
 
+   ```html
+         <tr>
+        <td align="center" valign="top" style="padding-top: 20px; padding-bottom: 20px">
+          <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+            <tr>
+              <td align="center" valign="top" style="
+                    color: #606060;
+                    font-family: Helvetica, Arial, sans-serif;
+                    font-size: 11px;
+                    line-height: 150%;
+                    padding-right: 20px;
+                    padding-bottom: 5px;
+                    padding-left: 20px;
+                    text-align: center;
+                  ">
+                This email was sent to
+                <a href="mailto:*|EMAIL|*" target="_blank" style="color: #404040 !important">*|EMAIL|*</a>
+                <br />
+                <a href="*|ABOUT_LIST|*" target="_blank" style="color: #404040 !important"><em>why did I get
+                    this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|UNSUB|*"
+                  style="color: #404040 !important">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                  href="*|UPDATE_PROFILE|*" style="color: #404040 !important">update subscription preferences</a>
+                <br />
+                *|LIST:ADDRESSLINE|*
+                <br />
+                <br />
+                *|REWARDS|*
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+   ```
+
+   ```html
+    <tbody>
+      <tr>
+        <td
+          valign="top"
+          class="mcnTextContent"
+          style="
+            padding-top: 0;
+            padding-right: 18px;
+            padding-bottom: 9px;
+            padding-left: 18px;
+            mso-line-height-rule: exactly;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            word-break: break-word;
+            color: #ffffff;
+            font-family: Helvetica;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+          "
+        >
+          <em
+            >Copyright © 2022 Undergraduate
+            Business Association at New York
+            University Shanghai, All rights
+            reserved.</em
+          >
+        </td>
+      </tr>
+    </tbody>
+   ```
+
 5. Replace the following words
 
    `Dear *|FNAME|*` -> `Dear UBA Members*`
+
+6. Add the first paragraph of the email to the `Summary` front-matter

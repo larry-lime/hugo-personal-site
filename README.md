@@ -1,3 +1,3 @@
 # Personal Website
 
-My public repository for my personal website
+Live website: [here](https://lawrencelim.xyz/)

@@ -13,5 +13,6 @@ layout: contact
 - [Twitter](https://twitter.com/lawrence_lim__)
 - [Telegram](https://t.me/larrylime4132)
 
+<!--TODO Add a working contact form-->
 <!-- ### Contact Form -->
 <!-- {{< form >}} -->

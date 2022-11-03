@@ -31,6 +31,8 @@ The Ethereum Merge's primary accomplishment will be to move the network from PoW
 
 Next, the Surge will introduce sharding which will increase Ethereum network capacity, reduce congestion, and increase transaction throughput. Sharding also works synergistically with L2 rollups by distributing the burden of handling data needed by rollups over the entire network.
 
+
+
 Then the Verge will optimize storage on Ethereum and reduce node size by introducing Verkle tree proofs. Verkle trees serve the same function as [Merkle trees](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/) but are more efficient in proof size. [Vitalik explains](https://vitalik.ca/general/2021/06/18/verkle.html) how, in a tree containing a billion pieces of data, generating a proof with a Merkle tree would require 1 kilobyte, whereas a Verkle tree would be less than 150 bytes, a more than 85% reduction in proof size.
 
 ![Ethereum Roadmap by Vitalik, Decmeber 2021](https://tokeninsight.com/cdn-cgi/image/width=750,fit=cover,quality=85/https://s2.tokeninsight.com/static/research/img2022072705344590500a7a-526e-4227-85b3-beeab63ffe75.jpg)Source: [Vitalik's Twitter](https://twitter.com/VitalikButerin/status/1466411377107558402)

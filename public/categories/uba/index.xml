@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>UBA on Lawrence Lim</title>
+    <link>/categories/uba/</link>
+    <description>Recent content in UBA on Lawrence Lim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/uba/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Website Workshop</title>
+      <link>/article/personal-website/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/personal-website/</guid>
+      <description>Getting Started Install Code Editor: VScode
+Install Package Manager: Homebrew
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Install Static Site Generator Hugo
+brew install hugo Follow the directions on the terminal output Create your Website Run the following commands in your terminal
+Create Hugo Project
+hugo new site quickstart -f yml Install Theme
+cd quickstart git init git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod Open the project in VSCode
+open . -a Vscode.app Copy the following code into your config.</description>
+    </item>
+    
+  </channel>
+</rss>

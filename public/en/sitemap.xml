@@ -2,11 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/project/hh-fund-me/</loc>
-    <lastmod>2022-09-18T01:26:38+08:00</lastmod>
+    <loc>/article/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/"
+                />
+  </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url><url>
+    <loc>/tags/css/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/html/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-09-18T01:26:38+08:00</lastmod>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
@@ -17,6 +46,28 @@
                 hreflang="en"
                 href="/"
                 />
+  </url><url>
+    <loc>/article/personal-website/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/categories/uba/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/hh-fund-me/</loc>
+    <lastmod>2022-09-18T01:26:38+08:00</lastmod>
   </url><url>
     <loc>/project/</loc>
     <lastmod>2022-09-18T01:26:38+08:00</lastmod>
@@ -60,19 +111,6 @@
                 href="/project/btc-analysis/"
                 />
   </url><url>
-    <loc>/article/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/article/"
-                />
-  </url><url>
     <loc>/tags/blockchain/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -84,19 +122,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/tags/blockchain/"
-                />
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
                 />
   </url><url>
     <loc>/tags/programming/</loc>
@@ -123,19 +148,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories/research/"
-                />
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
                 />
   </url><url>
     <loc>/article/vitalik-vision/</loc>

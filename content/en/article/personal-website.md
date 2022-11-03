@@ -116,8 +116,6 @@ ShowBreadCrumbs: true
 
 ## Create Content
 
-## Push 
-
 ## Resources
 
 * [Hugo Youtube Tutorial (~47min)](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=913s)

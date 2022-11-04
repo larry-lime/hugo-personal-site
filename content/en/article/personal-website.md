@@ -77,11 +77,11 @@ ShowBreadCrumbs: true
        - name: About
          url: /about
          weight: 2
-       - name: Contact
-         url: /
+       - name: Projects
+         url: /projects
          weight: 3
-       # - name: Projects
-       #   url: /projects
+       # - name: Contact
+       #   url: /contact
        #   weight: 3
        # - name: Articles
        #   url: /articles
@@ -256,14 +256,6 @@ ShowBreadCrumbs: true
 ### Deploy Your Website with Netlify
 
 1. Go to [netlify.com](https://www.netlify.com/) and create an account with your Github credentials
-2. Set up your netlify account
-3. Connect it to Github
-4. Configure build settings
-   * Branch to deploy: `main`
-   * Base Directory: N/A
-   * Build Command: `hugo`
-   * Publish Directory: `public`
-5. Click on *Site Settings* and *Change site name*
 
 ## Resources
 

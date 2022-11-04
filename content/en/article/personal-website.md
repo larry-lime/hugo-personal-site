@@ -24,8 +24,16 @@ ShowBreadCrumbs: true
    ```shell
    brew install hugo
    ```
+   
+   * Follow the directions on the terminal output
+   
+4. Optional: Install Github GLI (if you want to deploy your website)
 
-* Follow the directions on the terminal output
+   ```shell
+   brew install gh
+   ```
+
+   * Once installed, run `gh auth login` and follow the directions on screen
 
 ## Create your Website
 
@@ -67,7 +75,7 @@ ShowBreadCrumbs: true
          url: /
          weight: 1
        - name: About
-         url: /
+         url: /about
          weight: 2
        - name: Contact
          url: /
@@ -248,6 +256,14 @@ ShowBreadCrumbs: true
 ### Deploy Your Website with Netlify
 
 1. Go to [netlify.com](https://www.netlify.com/) and create an account with your Github credentials
+2. Set up your netlify account
+3. Connect it to Github
+4. Configure build settings
+   * Branch to deploy: `main`
+   * Base Directory: N/A
+   * Build Command: `hugo`
+   * Publish Directory: `public`
+5. Click on *Site Settings* and *Change site name*
 
 ## Resources
 

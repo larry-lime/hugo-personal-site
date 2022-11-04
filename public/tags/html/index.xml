@@ -16,11 +16,10 @@
       <description>Getting Started Install Code Editor: VScode
 Install Package Manager: Homebrew
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Install Static Site Generator Hugo
-brew install hugo Follow the directions on the terminal output Create your Website Run the following commands in your terminal
-Create Hugo Project
+brew install hugo Follow the directions on the terminal output Create your Website Create Hugo Project
 hugo new site quickstart -f yml Install Theme
 cd quickstart git init git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod Open the project in VSCode
-open . -a Vscode.app Copy the following code into your config.</description>
+open . This will open the current folder in finder Right click on config.</description>
     </item>
     
   </channel>

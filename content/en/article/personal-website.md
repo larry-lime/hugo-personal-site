@@ -217,6 +217,38 @@ ShowBreadCrumbs: true
 
    * You are editing the frontmatter to add a cover photo to your content
 
+## Build and Deploy Your Website
+
+### Build Your Site
+
+1. Run the Hugo build command in terminal simply by running
+
+   ```
+   hugo
+   ```
+
+   * This will create a `public` folder which will contain a "condensed" version of the website which will be important later
+
+### Push Your Website to Github
+
+1. Create a new Github repository
+
+2. Connect your local project with your remote repository
+
+3. Git add, commit, and push to your remote repository
+
+   ```shell
+   git add .
+   git commit -m "first commit"
+   git branch -M main
+   git remote add origin https://github.com/your-account/uba-website-workshop.git
+   git push -u origin main
+   ```
+
+### Deploy Your Website with Netlify
+
+1. Go to [netlify.com](https://www.netlify.com/) and create an account with your Github credentials
+
 ## Resources
 
 * [Hugo Youtube Tutorial (~47min)](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=913s)
@@ -224,4 +256,5 @@ ShowBreadCrumbs: true
 * [Get started with Hugo](https://gohugo.io/getting-started/quick-start/)
 * [Basic Terminal Commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
 * [Papermod Documentation](https://github.com/adityatelange/hugo-PaperMod)
+* [Github CLI Installation Guide](https://cli.github.com/manual/installation)
 

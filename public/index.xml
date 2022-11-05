@@ -17,7 +17,7 @@
 Install Package Manager: Homebrew
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Install Static Site Generator Hugo
 brew install hugo Follow the directions on the terminal output Optional: Install Github GLI (if you want to deploy your website)
-brew install gh Once installed, run gh auth login and follow the directions on screen Create your Website Create Hugo Project
+brew install gh Once installed, run gh auth login and follow the directions on the terminal Create your Website Create Hugo Project
 hugo new site quickstart -f yml Install Theme</description>
     </item>
     
@@ -58,7 +58,8 @@ Python Tkinter GUI Library Ngrok Network Application Getting Started Prerequisit
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/project/btc-analysis/</guid>
-      <description></description>
+      <description>Project Information Our research question for our project is: What is the most hyped cryptocurrency and is it Bitcion? We used many data sources for our research, including Bitcoin block data, cryptocurrency price data (from Yahoo Finance), and Google Trends search data. Additionally, we utilized data analysis techniques such as correlation, regression plotting, min-max scaling, and more.
+Recorded Video Presentation of our research: Google Slides Presentation: Link</description>
     </item>
     
     <item>

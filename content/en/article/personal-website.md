@@ -33,7 +33,7 @@ ShowBreadCrumbs: true
    brew install gh
    ```
 
-   * Once installed, run `gh auth login` and follow the directions on screen
+   * Once installed, run `gh auth login` and follow the directions on the terminal
 
 ## Create your Website
 
@@ -126,13 +126,15 @@ ShowBreadCrumbs: true
 
 ## Creating Content
 
-1. Create your About Me page
+1. Run this command in the VScode Terminal
 
    ```shell
    hugo new about.md
    ```
 
-2. Copy and paste the following markdown into your `about.md` after the frontmatter to get familiar with the basic syntax
+   * Here you are creating a new [markdown](https://www.markdownguide.org/getting-started/) file that you can edit in VSCode or another code/markdown editor
+
+2. Copy and paste the following markdown into your `about.md` after the front matter to get familiar with the basic syntax
 
    ```markdown
    # Heading 1
@@ -175,6 +177,10 @@ ShowBreadCrumbs: true
    ```shell
    hugo new projects/first-project.md
    ```
+   
+   * Here, you are creating a new folder called `projects` in your `content` folder.
+   * Within the `projects` folder, you are creating a file called `first-project.md`
+   * So now, the *Projects*
 
 ### Adding Images to Homepage
 
@@ -249,6 +255,7 @@ ShowBreadCrumbs: true
    git add .
    git commit -m "first commit"
    git branch -M main
+   ### You will want to copy the following part from github ###
    git remote add origin https://github.com/your-account/uba-website-workshop.git
    git push -u origin main
    ```
@@ -256,6 +263,12 @@ ShowBreadCrumbs: true
 ### Deploy Your Website with Netlify
 
 1. Go to [netlify.com](https://www.netlify.com/) and create an account with your Github credentials
+1. Configure the following setttings before deploying your site
+   * Branch to deploy: `main`
+   * Build Command: `hugo`
+   * Publish directory: `public`
+1. Then click on *Site Settings* and click *Change site name* to change the site name to a name of your choice
+1. Then click on the site link, and now your website is live!
 
 ## Resources
 
@@ -265,4 +278,3 @@ ShowBreadCrumbs: true
 * [Basic Terminal Commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
 * [Papermod Documentation](https://github.com/adityatelange/hugo-PaperMod)
 * [Github CLI Installation Guide](https://cli.github.com/manual/installation)
-

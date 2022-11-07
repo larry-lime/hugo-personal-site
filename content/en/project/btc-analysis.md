@@ -10,4 +10,6 @@ Our research question for our project is: *What is the most hyped cryptocurrency
 Recorded Video Presentation of our research:
 {{< youtube id="BX-kgJyZnyI" title="Demo Video" >}}
 
+Github Repo: [Link](https://github.com/larry-lime/btc-stat-analysis.git)
+
 Google Slides Presentation: [Link](https://docs.google.com/presentation/d/1_c-I30xfuyo_gHj3XFrR2-xOTXmEChZ7-cuqYBnxYc0/edit?usp=sharing)

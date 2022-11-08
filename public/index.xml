@@ -13,12 +13,10 @@
       <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>/article/personal-website/</guid>
-      <description>Getting Started Install Code Editor: VScode, Pycharm
+      <description>Prerequisites Basic Unix terminal commands Basic Git knowledge (add, commit, main, submodules) Familiarity with Markdown syntax Resources Git Tutorial (~15min) Git Tutorial (~1h) Markdown Basic Syntax Basic Terminal Commands Papermod Documentation Getting Started Install Code Editor: VScode, Pycharm
 Install Package Manager: Homebrew
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; Install Static Site Generator Hugo
-brew install hugo Follow the directions on the terminal output Optional: Install Github GLI (if you want to deploy your website)
-brew install gh Once installed, run gh auth login and follow the directions on the terminal Create your Website Create Hugo Project
-hugo new site quickstart -f yml Install Theme</description>
+brew install hugo Follow the directions on the terminal output Install Github CLI (if you want to deploy your website)</description>
     </item>
     
     <item>

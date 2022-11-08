@@ -9,6 +9,18 @@ ShowToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ---
+## Prerequisites
+1. Basic Unix terminal commands
+2. Basic Git knowledge (add, commit, main, submodules)
+3. Familiarity with Markdown syntax
+
+## Resources
+* [Git Tutorial (~15min)](https://www.youtube.com/watch?v=USjZcfj8yxE)
+* [Git Tutorial (~1h)](https://www.youtube.com/watch?v=8JJ101D3knE)
+* [Markdown Basic Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Basic Terminal Commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
+* [Papermod Documentation](https://github.com/adityatelange/hugo-PaperMod)
+
 ## Getting Started
 
 1. Install Code Editor: [VScode](https://code.visualstudio.com/), [Pycharm](https://www.jetbrains.com/pycharm/) 
@@ -27,7 +39,7 @@ ShowBreadCrumbs: true
    
    * Follow the directions on the terminal output
    
-4. Optional: Install Github GLI (if you want to deploy your website)
+4. Install Github [CLI](https://cli.github.com/manual/installation) (if you want to deploy your website)
 
    ```shell
    brew install gh
@@ -270,13 +282,7 @@ ShowBreadCrumbs: true
 1. Then click on *Site Settings* and click *Change site name* to change the site name to a name of your choice
 1. Then click on the site link, and now your website is live!
 
-## Resources
-
-* [Hugo Youtube Tutorial (~47min)](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=913s)
-* [Git Tutorial (~15min)](https://www.youtube.com/watch?v=USjZcfj8yxE)
-* [Git Tutorial (~1h)](https://www.youtube.com/watch?v=8JJ101D3knE)
-* [Markdown Basic Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+## Additional Resources
 * [Get started with Hugo](https://gohugo.io/getting-started/quick-start/)
-* [Basic Terminal Commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
-* [Papermod Documentation](https://github.com/adityatelange/hugo-PaperMod)
+* [Hugo Youtube Tutorial (~47min)](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=913s)
 * [Github CLI Installation Guide](https://cli.github.com/manual/installation)

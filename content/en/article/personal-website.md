@@ -11,7 +11,7 @@ ShowBreadCrumbs: true
 ---
 ## Getting Started
 
-1. Install Code Editor: [VScode](https://code.visualstudio.com/)
+1. Install Code Editor: [VScode](https://code.visualstudio.com/), [Pycharm](https://www.jetbrains.com/pycharm/) 
 
 2. Install Package Manager: [Homebrew](https://brew.sh/)
 
@@ -273,6 +273,8 @@ ShowBreadCrumbs: true
 ## Resources
 
 * [Hugo Youtube Tutorial (~47min)](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=913s)
+* [Git Tutorial (~15min)](https://www.youtube.com/watch?v=USjZcfj8yxE)
+* [Git Tutorial (~1h)](https://www.youtube.com/watch?v=8JJ101D3knE)
 * [Markdown Basic Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Get started with Hugo](https://gohugo.io/getting-started/quick-start/)
 * [Basic Terminal Commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)

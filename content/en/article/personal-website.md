@@ -11,7 +11,7 @@ ShowBreadCrumbs: true
 ---
 ## Prerequisites
 1. Basic Unix terminal commands
-2. Basic Git knowledge (add, commit, main, submodules)
+2. Basic Git knowledge (add, commit, push, submodules)
 3. Familiarity with Markdown syntax
 
 ## Resources

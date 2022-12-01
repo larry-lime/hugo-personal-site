@@ -20,41 +20,6 @@ brew install hugo Follow the directions on the terminal output Install Github CL
     </item>
     
     <item>
-      <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
-      <link>/article/vitalik-vision/</link>
-      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/article/vitalik-vision/</guid>
-      <description>Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&amp;rsquo;s future.
-This article was first published to TokenInsight by Lawrence Lim original article linked here
-Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.</description>
-    </item>
-    
-    <item>
-      <title>zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?</title>
-      <link>/article/zksync-vs-starkware/</link>
-      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/article/zksync-vs-starkware/</guid>
-      <description>We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&amp;rsquo;s respective roadmaps and ecosystems.
-This article was first published to TokenInsight by Lawrence Lim. Original article linked here
-Table of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs.</description>
-    </item>
-    
-    <item>
-      <title>Optimism vs. Arbitrum - A Complete Comparison</title>
-      <link>/article/optimism-vs-arbitrum/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/article/optimism-vs-arbitrum/</guid>
-      <description>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
-This article was first published to TokenInsight by Lawrence Lim. Original article linked here
-Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
-Source: https://l2fees.info/
-At present, Ethereum&amp;rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.</description>
-    </item>
-    
-    <item>
       <title>Digital RMB: Revolutionary Technology or Not?</title>
       <link>/article/digital-rmb/</link>
       <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>

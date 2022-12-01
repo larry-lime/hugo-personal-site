@@ -111,34 +111,14 @@
                 href="/project/btc-analysis/"
                 />
   </url><url>
-    <loc>/tags/blockchain/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/tags/blockchain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/blockchain/"
-                />
+    <loc>/tags/cbdc/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/programming/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/tags/programming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/programming/"
-                />
+    <loc>/article/digital-rmb/</loc>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/research/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
@@ -149,54 +129,6 @@
                 hreflang="en"
                 href="/categories/research/"
                 />
-  </url><url>
-    <loc>/article/vitalik-vision/</loc>
-    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/article/vitalik-vision/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/article/vitalik-vision/"
-                />
-  </url><url>
-    <loc>/tags/blockchain-programming/</loc>
-    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/article/zksync-vs-starkware/</loc>
-    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/article/zksync-vs-starkware/"
-                />
-  </url><url>
-    <loc>/article/optimism-vs-arbitrum/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/article/optimism-vs-arbitrum/"
-                />
-  </url><url>
-    <loc>/tags/cbdc/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/article/digital-rmb/</loc>
-    <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
     <xhtml:link

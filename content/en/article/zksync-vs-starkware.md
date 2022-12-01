@@ -1,7 +1,7 @@
 ---
 title: "zkSync vs StarkWare - What's the difference between the top two ZK Rollups?"
 date: 2022-07-15
-draft: false
+draft: true
 author: ["Lawrence Lim"]
 categories: ["research"]
 tags: ["blockchain, programming"]

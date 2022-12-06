@@ -20,6 +20,19 @@ brew install hugo Follow the directions on the terminal output Install Github CL
     </item>
     
     <item>
+      <title>Uba Content Best Practices</title>
+      <link>/article/uba-content-best-practices/</link>
+      <pubDate>Sun, 09 Oct 2022 19:49:56 +0800</pubDate>
+      
+      <guid>/article/uba-content-best-practices/</guid>
+      <description>Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA&amp;rsquo;s website
+News Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article
+Format the HTML for consistency
+npx prettier FILE-NAME --write Delete the following code blocks
+&amp;lt;title&amp;gt;*|MC:SUBJECT|*&amp;lt;/title&amp;gt; &amp;lt;!--*|IF:MC_PREVIEW_TEXT|*--&amp;gt; &amp;lt;!--[if !gte mso 9]&amp;gt;&amp;lt;!----&amp;gt;&amp;lt;span class=&amp;#34;mcnPreviewText&amp;#34; style=&amp;#34; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; &amp;#34; &amp;gt;*|MC_PREVIEW_TEXT|*&amp;lt;/span &amp;gt;&amp;lt;!</description>
+    </item>
+    
+    <item>
       <title>Ethereum Crowd Funding – Full Stack Solidity &amp; JavaScript DApp</title>
       <link>/project/hh-fund-me/</link>
       <pubDate>Sun, 18 Sep 2022 01:26:38 +0800</pubDate>
@@ -59,6 +72,41 @@ Python Tkinter GUI Library Ngrok Network Application Getting Started Prerequisit
       <description>Project Information Our research question for our project is: What is the most hyped cryptocurrency and is it Bitcoin? We used many data sources for our research, including Bitcoin block data, cryptocurrency price data (from Yahoo Finance), and Google Trends search data. Additionally, we utilized data analysis techniques such as correlation, regression plotting, min-max scaling, and more.
 Recorded Video Presentation of our research: Github Repo: Link
 Google Slides Presentation: Link</description>
+    </item>
+    
+    <item>
+      <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
+      <link>/article/vitalik-vision/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/vitalik-vision/</guid>
+      <description>Vitalik Buterin recently spoke at EthParis 2022, outlining his long-term and short-term goals for Ethereum. We examine the roadmap he lays out and will also break down vital technical features to play an essential role in Ethereum&amp;rsquo;s future.
+This article was first published to TokenInsight by Lawrence Lim original article linked here
+Prerequisites Knowledge of Proof of Work (PoW), Proof of Stake (PoS), and [Layer-2 (L2)](https://ethereum.org/en/layer-2/#:~:text=A layer 2 is a separate blockchain that extends Ethereum.</description>
+    </item>
+    
+    <item>
+      <title>zkSync vs StarkWare - What&#39;s the difference between the top two ZK Rollups?</title>
+      <link>/article/zksync-vs-starkware/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/zksync-vs-starkware/</guid>
+      <description>We compare zkSync and StarkNet - two prominent ZK-rollups scaling the Ethereum network. What are ZK-Rollups? How are zkSync and StarkNet different? What are SNARKs and STARKs? We answer these questions and more while also exploring each protocol&amp;rsquo;s respective roadmaps and ecosystems.
+This article was first published to TokenInsight by Lawrence Lim. Original article linked here
+Table of Contents Prerequisites Background Zero-Knowledge Rollups Optimistic vs. ZK Rollups zkSync vs. StarkNet SNARKs vs.</description>
+    </item>
+    
+    <item>
+      <title>Optimism vs. Arbitrum - A Complete Comparison</title>
+      <link>/article/optimism-vs-arbitrum/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/article/optimism-vs-arbitrum/</guid>
+      <description>Optimism and Arbitrum , two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network. I will do a full comparison in this article.
+This article was first published to TokenInsight by Lawrence Lim. Original article linked here
+Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
+Source: https://l2fees.info/
+At present, Ethereum&amp;rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.</description>
     </item>
     
     <item>

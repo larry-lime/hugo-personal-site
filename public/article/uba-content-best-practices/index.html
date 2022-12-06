@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Uba Content Best Practices | Lawrence Lim</title>
+<meta name="keywords" content="">
+<meta name="description" content="Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA&rsquo;s website
+News Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article
+Format the HTML for consistency
+npx prettier FILE-NAME --write Delete the following code blocks
+&lt;title&gt;*|MC:SUBJECT|*&lt;/title&gt; &lt;!--*|IF:MC_PREVIEW_TEXT|*--&gt; &lt;!--[if !gte mso 9]&gt;&lt;!----&gt;&lt;span class=&#34;mcnPreviewText&#34; style=&#34; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; &#34; &gt;*|MC_PREVIEW_TEXT|*&lt;/span &gt;&lt;!">
+<meta name="author" content="0xLawrence">
+<link rel="canonical" href="/article/uba-content-best-practices/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css" integrity="sha256-vBFJ9KcqpIWNOp9xRi915YhP/oBz6p1tV2HVZj1lHiA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/article/uba-content-best-practices/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Uba Content Best Practices" />
+<meta property="og:description" content="Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA&rsquo;s website
+News Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article
+Format the HTML for consistency
+npx prettier FILE-NAME --write Delete the following code blocks
+&lt;title&gt;*|MC:SUBJECT|*&lt;/title&gt; &lt;!--*|IF:MC_PREVIEW_TEXT|*--&gt; &lt;!--[if !gte mso 9]&gt;&lt;!----&gt;&lt;span class=&#34;mcnPreviewText&#34; style=&#34; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; &#34; &gt;*|MC_PREVIEW_TEXT|*&lt;/span &gt;&lt;!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/article/uba-content-best-practices/" /><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2022-10-09T19:49:56+08:00" />
+<meta property="article:modified_time" content="2022-10-09T19:49:56+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Uba Content Best Practices"/>
+<meta name="twitter:description" content="Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA&rsquo;s website
+News Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article
+Format the HTML for consistency
+npx prettier FILE-NAME --write Delete the following code blocks
+&lt;title&gt;*|MC:SUBJECT|*&lt;/title&gt; &lt;!--*|IF:MC_PREVIEW_TEXT|*--&gt; &lt;!--[if !gte mso 9]&gt;&lt;!----&gt;&lt;span class=&#34;mcnPreviewText&#34; style=&#34; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; &#34; &gt;*|MC_PREVIEW_TEXT|*&lt;/span &gt;&lt;!"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Articles",
+      "item": "/article/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Uba Content Best Practices",
+      "item": "/article/uba-content-best-practices/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Uba Content Best Practices",
+  "name": "Uba Content Best Practices",
+  "description": "Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA\u0026rsquo;s website\nNews Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article\nFormat the HTML for consistency\nnpx prettier FILE-NAME --write Delete the following code blocks\n\u0026lt;title\u0026gt;*|MC:SUBJECT|*\u0026lt;/title\u0026gt; \u0026lt;!--*|IF:MC_PREVIEW_TEXT|*--\u0026gt; \u0026lt;!--[if !gte mso 9]\u0026gt;\u0026lt;!----\u0026gt;\u0026lt;span class=\u0026#34;mcnPreviewText\u0026#34; style=\u0026#34; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; \u0026#34; \u0026gt;*|MC_PREVIEW_TEXT|*\u0026lt;/span \u0026gt;\u0026lt;!",
+  "keywords": [
+    
+  ],
+  "articleBody": "Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA’s website\nNews Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article\nFormat the HTML for consistency\nnpx prettier FILE-NAME --write Delete the following code blocks\n\u003ctitle\u003e*|MC:SUBJECT|*\u003c/title\u003e \u003cspan class=\"mcnPreviewText\" style=\" display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; \" \u003e*|MC_PREVIEW_TEXT|*\u003c/span \u003e \u003ctr\u003e \u003ctd align=\"center\" valign=\"top\" style=\"padding-top: 20px; padding-bottom: 20px\"\u003e \u003ctable border=\"0\" cellpadding=\"0\" cellspacing=\"0\" id=\"canspamBar\"\u003e \u003ctr\u003e \u003ctd align=\"center\" valign=\"top\" style=\" color: #606060; font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 150%; padding-right: 20px; padding-bottom: 5px; padding-left: 20px; text-align: center; \"\u003e This email was sent to \u003ca href=\"mailto:*|EMAIL|*\" target=\"_blank\" style=\"color: #404040 !important\"\u003e*|EMAIL|*\u003c/a\u003e \u003cbr /\u003e \u003ca href=\"*|ABOUT_LIST|*\" target=\"_blank\" style=\"color: #404040 !important\"\u003e\u003cem\u003ewhy did I get this?\u003c/em\u003e\u003c/a\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003ca href=\"*|UNSUB|*\" style=\"color: #404040 !important\"\u003eunsubscribe from this list\u003c/a\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;\u003ca href=\"*|UPDATE_PROFILE|*\" style=\"color: #404040 !important\"\u003eupdate subscription preferences\u003c/a\u003e \u003cbr /\u003e *|LIST:ADDRESSLINE|* \u003cbr /\u003e \u003cbr /\u003e *|REWARDS|* \u003c/td\u003e \u003c/tr\u003e \u003c/table\u003e \u003c/td\u003e \u003c/tr\u003e \u003ctbody\u003e \u003ctr\u003e \u003ctd valign=\"top\" class=\"mcnTextContent\" style=\" padding-top: 0; padding-right: 18px; padding-bottom: 9px; padding-left: 18px; mso-line-height-rule: exactly; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; word-break: break-word; color: #ffffff; font-family: Helvetica; font-size: 12px; line-height: 150%; text-align: center; \" \u003e \u003cem \u003eCopyright © 2022 Undergraduate Business Association at New York University Shanghai, All rights reserved.\u003c/em \u003e \u003c/td\u003e \u003c/tr\u003e \u003c/tbody\u003e Replace the following words\nDear *|FNAME|* -\u003e Dear UBA Members*\nAdd the first paragraph of the email to the Summary front-matter\n",
+  "wordCount" : "253",
+  "inLanguage": "en",
+  "datePublished": "2022-10-09T19:49:56+08:00",
+  "dateModified": "2022-10-09T19:49:56+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "0xLawrence"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/article/uba-content-best-practices/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lawrence Lim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Lawrence Lim (Alt + H)">Lawrence Lim</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/%E4%B8%AD%E6%96%87/" title=":zh:"
+                            aria-label=":zh:">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/project/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="/article/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Uba Content Best Practices
+    </h1>
+    <div class="post-meta"><span title='2022-10-09 19:49:56 +0800 +08'>October 9, 2022</span>&nbsp;·&nbsp;0xLawrence
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a></li>
+                <li>
+                    <a href="#news" aria-label="News">News</a><ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#create-a-new-newsletter-post" aria-label="Create a new newsletter post">Create a new newsletter post</a>
+                </li>
+            </ul>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>This article will be an overview of best practices to follow when publishing and managing content on my UBA&rsquo;s website</p>
+<h2 id="news">News<a hidden class="anchor" aria-hidden="true" href="#news">#</a></h2>
+<h4 id="create-a-new-newsletter-post">Create a new newsletter post<a hidden class="anchor" aria-hidden="true" href="#create-a-new-newsletter-post">#</a></h4>
+<ol>
+<li>Create a new hugo blog post</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new blog/month-date.html
+</span></span></code></pre></div><ol start="2">
+<li>
+<p>Copy and paste html code from MailChimp and paste it in the article</p>
+</li>
+<li>
+<p>Format the HTML for consistency</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>npx prettier FILE-NAME --write
+</span></span></code></pre></div></li>
+<li>
+<p>Delete the following code blocks</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">title</span>&gt;*|MC:SUBJECT|*&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!--*|IF:MC_PREVIEW_TEXT|*--&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!--[if !gte mso 9]&gt;&lt;!----&gt;</span>&lt;<span style="color:#f92672">span</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mcnPreviewText&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        display: none;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        font-size: 0px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        line-height: 0px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        max-height: 0px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        max-width: 0px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        opacity: 0;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        overflow: hidden;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        visibility: hidden;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        mso-hide: all;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      &#34;</span>
+</span></span><span style="display:flex;"><span>      &gt;*|MC_PREVIEW_TEXT|*&lt;/<span style="color:#f92672">span</span>
+</span></span><span style="display:flex;"><span>    &gt;<span style="color:#75715e">&lt;!--&lt;![endif]--&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">&lt;!--*|END:IF|*--&gt;</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>      &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>     &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">align</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;center&#34;</span> <span style="color:#a6e22e">valign</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;top&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;padding-top: 20px; padding-bottom: 20px&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>       &lt;<span style="color:#f92672">table</span> <span style="color:#a6e22e">border</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">cellpadding</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">cellspacing</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;canspamBar&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>         &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>           &lt;<span style="color:#f92672">td</span> <span style="color:#a6e22e">align</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;center&#34;</span> <span style="color:#a6e22e">valign</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;top&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 color: #606060;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 font-family: Helvetica, Arial, sans-serif;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 font-size: 11px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 line-height: 150%;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 padding-right: 20px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 padding-bottom: 5px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 padding-left: 20px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">                 text-align: center;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">               &#34;</span>&gt;
+</span></span><span style="display:flex;"><span>             This email was sent to
+</span></span><span style="display:flex;"><span>             &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mailto:*|EMAIL|*&#34;</span> <span style="color:#a6e22e">target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_blank&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color: #404040 !important&#34;</span>&gt;*|EMAIL|*&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>             &lt;<span style="color:#f92672">br</span> /&gt;
+</span></span><span style="display:flex;"><span>             &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*|ABOUT_LIST|*&#34;</span> <span style="color:#a6e22e">target</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;_blank&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color: #404040 !important&#34;</span>&gt;&lt;<span style="color:#f92672">em</span>&gt;why did I get
+</span></span><span style="display:flex;"><span>                 this?&lt;/<span style="color:#f92672">em</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*|UNSUB|*&#34;</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color: #404040 !important&#34;</span>&gt;unsubscribe from this list&lt;/<span style="color:#f92672">a</span>&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;<span style="color:#f92672">a</span>
+</span></span><span style="display:flex;"><span>               <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;*|UPDATE_PROFILE|*&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color: #404040 !important&#34;</span>&gt;update subscription preferences&lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>             &lt;<span style="color:#f92672">br</span> /&gt;
+</span></span><span style="display:flex;"><span>             *|LIST:ADDRESSLINE|*
+</span></span><span style="display:flex;"><span>             &lt;<span style="color:#f92672">br</span> /&gt;
+</span></span><span style="display:flex;"><span>             &lt;<span style="color:#f92672">br</span> /&gt;
+</span></span><span style="display:flex;"><span>             *|REWARDS|*
+</span></span><span style="display:flex;"><span>           &lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>         &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>       &lt;/<span style="color:#f92672">table</span>&gt;
+</span></span><span style="display:flex;"><span>     &lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span> &lt;<span style="color:#f92672">tbody</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span>     &lt;<span style="color:#f92672">td</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">valign</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;top&#34;</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mcnTextContent&#34;</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         padding-top: 0;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         padding-right: 18px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         padding-bottom: 9px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         padding-left: 18px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         mso-line-height-rule: exactly;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         -ms-text-size-adjust: 100%;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         -webkit-text-size-adjust: 100%;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         word-break: break-word;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         color: #ffffff;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         font-family: Helvetica;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         font-size: 12px;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         line-height: 150%;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">         text-align: center;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">       &#34;</span>
+</span></span><span style="display:flex;"><span>     &gt;
+</span></span><span style="display:flex;"><span>       &lt;<span style="color:#f92672">em</span>
+</span></span><span style="display:flex;"><span>         &gt;Copyright © 2022 Undergraduate
+</span></span><span style="display:flex;"><span>         Business Association at New York
+</span></span><span style="display:flex;"><span>         University Shanghai, All rights
+</span></span><span style="display:flex;"><span>         reserved.&lt;/<span style="color:#f92672">em</span>
+</span></span><span style="display:flex;"><span>       &gt;
+</span></span><span style="display:flex;"><span>     &lt;/<span style="color:#f92672">td</span>&gt;
+</span></span><span style="display:flex;"><span>   &lt;/<span style="color:#f92672">tr</span>&gt;
+</span></span><span style="display:flex;"><span> &lt;/<span style="color:#f92672">tbody</span>&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Replace the following words</p>
+<p><code>Dear *|FNAME|*</code> -&gt; <code>Dear UBA Members*</code></p>
+</li>
+<li>
+<p>Add the first paragraph of the email to the <code>Summary</code> front-matter</p>
+</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="/">Lawrence Lim</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

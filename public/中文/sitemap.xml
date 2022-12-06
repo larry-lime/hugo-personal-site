@@ -43,6 +43,16 @@
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/tags/blockchain/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/blockchain/"
+                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/project/btc-analysis/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
@@ -75,6 +85,16 @@
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/tags/programming/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/tags/programming/"
+                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/project/pyfinny/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
@@ -123,12 +143,42 @@
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/article/vitalik-vision/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/vitalik-vision/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/vitalik-vision/"
+                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/</loc>
     <lastmod>2022-07-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/zksync-vs-starkware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/zksync-vs-starkware/"
+                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/article/optimism-vs-arbitrum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/article/optimism-vs-arbitrum/"
+                />
   </url><url>
     <loc>/%E4%B8%AD%E6%96%87/about/</loc>
     <xhtml:link

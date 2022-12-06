@@ -1,7 +1,7 @@
 ---
 title: "Optimism vs. Arbitrum - A Complete Comparison"
 date: 2022-07-01
-draft: true
+draft: false
 author: ["Lawrence Lim"]
 categories: ["research"]
 tags: ["blockchain","programming"]

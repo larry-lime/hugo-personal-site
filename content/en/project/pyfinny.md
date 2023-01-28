@@ -144,6 +144,7 @@ $ pyfin dcf
 
 To perform a comparables analysis, use the comparables command. The `-n` or `--comparables_analysis_name` option can be used to specify the name of the Excel file to write the comparables analysis to. If not provided, the default file name is `comparables_analysis.xlsx`. The `-f` or `--filename` option can be used to specify the file containing the tickers to use for the analysis. If not provided, the default file is `load.txt`.
 
+```shell
 $ pyfin compare [-n|--comparables_analysis_name] [-f|--filename]
 ```
 #### Examples

@@ -5,6 +5,7 @@ draft: false
 author: ["Lawrence Lim"]
 ShowToc: true
 ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
 ---
 
 ## About The Project

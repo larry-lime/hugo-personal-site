@@ -5,6 +5,7 @@ author: ["Lawrence Lim"]
 draft: false
 ShowToc: true
 ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
 ---
 
 <!--Add blurb at the top-->

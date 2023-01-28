@@ -2,5 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-author: 0xLawrence
+author: Lawrence Lim
+ShowToc: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
 ---

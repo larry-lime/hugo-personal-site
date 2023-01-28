@@ -114,6 +114,19 @@
                 href="/project/btc-analysis/"
                 />
   </url><url>
+    <loc>/project/pyfinny/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/project/pyfinny/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/pyfinny/"
+                />
+  </url><url>
     <loc>/tags/blockchain/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
     <xhtml:link

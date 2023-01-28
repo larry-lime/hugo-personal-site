@@ -75,6 +75,15 @@ Google Slides Presentation: Link</description>
     </item>
     
     <item>
+      <title>Pyfinny - DCF and Comparables Analysis with Python</title>
+      <link>/project/pyfinny/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pyfinny/</guid>
+      <description>Pyfinny Contents Introduction Requirements Optional Requirements Installation Usage Setup Open Excel File Load Company Financial Statements Print Data from Database Print Tickers Discounted Cash Flow Analysis Comparables Analysis Introduction This is a command-line interface (CLI) tool for analyzing financial statements and performing discounted cash flow (DCF) and comparables analysis. The tool uses the Financial Modelling Prep API, which requires an API key. The Github repository with source code and release binaries can be found here</description>
+    </item>
+    
+    <item>
       <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
       <link>/article/vitalik-vision/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
@@ -124,8 +133,8 @@ At present, Ethereum&amp;rsquo;s high transaction fees and limited throughput of
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Who am I? Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience researching web3 protocols and currently focus my personal projects on smart contract development. Besides programming, i&amp;rsquo;m often playing soccer, going to the gym, or organizing community events in Shanghai.
-I’m also very passionate about open source and am always interested in hearing about opportunities in tech especially in web3. Never hesitate to reach out or connect!</description>
+      <description>Who am I? Hi, I’m Lawrence Lim and I’m currently a Sophomore CS student based in Shanghai. I have experience in product development and research and currently focus my personal projects on smart contract development. Besides programming, i&amp;rsquo;m often playing soccer, going to the gym, or organizing community events in Shanghai.
+I’m also very passionate about open source and am always interested in hearing about opportunities in tech. Never hesitate to reach out or connect!</description>
     </item>
     
     <item>

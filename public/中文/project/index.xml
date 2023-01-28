@@ -43,11 +43,10 @@
       <description>简介 这是一个命令行界面（CLI）工具，用于分析财务报表和进行现金流折现（DCF）和可比性分析。该工具使用Financial Modelling Prep API，这需要一个API密钥。可以在Github资源库中找到源代码和发布的二进制文件这里
 要求 安装Python 3.10 拥有[金融建模准备]的账户(https://site.financialmodelingprep.com/) Bash或Zsh终端。强烈建议Windows用户使用WSL 可选要求 Sqlite Browser以查看和操作数据库中的数据 Homebrew和Git来开发应用程序。 安装 注意：在MacOS上使用python3,pip3，在Windows上使用python, pip。
 克隆版本库或下载release binary ``shell git clone https://github.com/larry-lime/pyfinny.git cd pyfinny 创建并启动Python虚拟环境 python -m venv venv 激活Python虚拟环境 ``shell source venv/bin/activate 安装需求 pip3安装。 使用方法 在你的终端运行pyfin，开始使用该应用程序 ###设置
-在开始分析之前，你必须运行设置命令，以提供你的金融建模准备API密钥，并创建必要的数据库。 ``shell pyfin setup
-### 打开Excel文件 要打开一个Excel文件，请使用open命令，并提供不含文件扩展名的文件名。`-d`或`-resource_dir`选项可以用来指定Excel文件所在的目录。如果没有提供，默认的目录是`resources`。 ``shell pyfin open filename [-d|--resource_dir] 。 示例 要打开DCF模板，运行以下命令。 ``shell pyfin open dcf
-要打开可比性分析模板，运行下面的命令。 ``shell pyfin打开比较 ###加载公司财务报表
-要加载公司的财务报表，请使用load命令。-f或--filename选项可以用来指定包含要加载的公司股票的文件。如果没有提供，默认文件是load.txt。 ``shell pyfin load [-f|&amp;ndash;filename]
-#### 示例 要加载`load.txt`中公司的财务报表，请运行以下命令。 ``shell pyfin load 要加载dcf.</description>
+在开始分析之前，你必须运行设置命令，以提供你的金融建模准备API密钥，并创建必要的数据库。
+pyfin setup 打开Excel文件 要打开一个Excel文件，请使用open命令，并提供不含文件扩展名的文件名。-d或-resource_dir选项可以用来指定Excel文件所在的目录。如果没有提供，默认的目录是resources。 ``shell pyfin open filename [-d|&amp;ndash;resource_dir] 。
+#### 示例 要打开DCF模板，运行以下命令。 ``shell pyfin open dcf 要打开可比性分析模板，运行下面的命令。 ``shell pyfin打开比较
+###加载公司财务报表 要加载公司的财务报表，请使用load命令。`-f`或`--filename`选项可以用来指定包含要加载的公司股票的文件。如果没有提供，默认文件是`load.txt`。 ```shell pyfin load [-f|--filename] 示例 要加载load.txt中公司的财务报表，请运行以下命令。 ``shell pyfin load</description>
     </item>
     
   </channel>

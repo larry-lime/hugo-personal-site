@@ -39,7 +39,7 @@ draft: false
 ###设置
 
 在开始分析之前，你必须运行设置命令，以提供你的金融建模准备API密钥，并创建必要的数据库。
-``shell
+```shell
 pyfin setup
 ```
 
@@ -62,7 +62,7 @@ pyfin打开比较
 ###加载公司财务报表
 
 要加载公司的财务报表，请使用load命令。`-f`或`--filename`选项可以用来指定包含要加载的公司股票的文件。如果没有提供，默认文件是`load.txt`。
-``shell
+```shell
 pyfin load [-f|--filename]
 ```
 #### 示例

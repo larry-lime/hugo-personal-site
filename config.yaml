@@ -54,6 +54,7 @@ languages:
         - name: 联系
           url: contact/
 params:
+  googleAnalitycsID: G-M7KF0DZXD9
   profileMode:
     enabled: true
     title: "Lawrence Lim"

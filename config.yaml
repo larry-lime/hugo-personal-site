@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true
     title: "Lawrence Lim"
-    subtitle: "👷 Web 3 Builder | 💻 CS Student | 📚 NYU Shanghai"
+    subtitle: "👷 Building & Exploring | 💻 CS Student | 📚 NYU Shanghai"
     imageUrl: "img/ll_profile_pic.jpg"
     imageTitle: "Profile Picture"
     imageWidth: 200

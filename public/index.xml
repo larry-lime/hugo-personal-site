@@ -20,19 +20,6 @@ brew install hugo Follow the directions on the terminal output Install Github CL
     </item>
     
     <item>
-      <title>Uba Content Best Practices</title>
-      <link>/article/uba-content-best-practices/</link>
-      <pubDate>Sun, 09 Oct 2022 19:49:56 +0800</pubDate>
-      
-      <guid>/article/uba-content-best-practices/</guid>
-      <description>Introduction This article will be an overview of best practices to follow when publishing and managing content on my UBA&amp;rsquo;s website
-News Create a new newsletter post Create a new hugo blog post hugo new blog/month-date.html Copy and paste html code from MailChimp and paste it in the article
-Format the HTML for consistency
-npx prettier FILE-NAME --write Delete the following code blocks
-&amp;lt;title&amp;gt;*|MC:SUBJECT|*&amp;lt;/title&amp;gt; &amp;lt;!--*|IF:MC_PREVIEW_TEXT|*--&amp;gt; &amp;lt;!--[if !gte mso 9]&amp;gt;&amp;lt;!----&amp;gt;&amp;lt;span class=&amp;#34;mcnPreviewText&amp;#34; style=&amp;#34; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; visibility: hidden; mso-hide: all; &amp;#34; &amp;gt;*|MC_PREVIEW_TEXT|*&amp;lt;/span &amp;gt;&amp;lt;!</description>
-    </item>
-    
-    <item>
       <title>Ethereum Crowd Funding – Full Stack Solidity &amp; JavaScript DApp</title>
       <link>/project/hh-fund-me/</link>
       <pubDate>Sun, 18 Sep 2022 01:26:38 +0800</pubDate>

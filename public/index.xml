@@ -62,16 +62,6 @@ Google Slides Presentation: Link</description>
     </item>
     
     <item>
-      <title>Pyfinny - DCF and Comparables Analysis with Python</title>
-      <link>/project/pyfinny/</link>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/project/pyfinny/</guid>
-      <description>About the Project Introduction This is a command-line interface (CLI) tool for analyzing financial statements and performing discounted cash flow (DCF) and comparables analysis. The tool uses the Financial Modelling Prep API, which requires an API key. The Github repository with source code and release binaries can be found here
-Requirements Python 3.10 installation Account with Financial Modeling Prep Bash or Zsh terminal. Windows users are highly advised to use WSL Optional Requirements Sqlite Browser to view and manipulate the data in the database Homebrew and Git to develop the application Installation Note: use python3,pip3 on MacOS and python, pip on Windows</description>
-    </item>
-    
-    <item>
       <title>Vitalik&#39;s Vision - EthCC Paris Recap</title>
       <link>/article/vitalik-vision/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
@@ -104,6 +94,16 @@ This article was first published to TokenInsight by Lawrence Lim. Original artic
 Background Optimism and Arbitrum are two of the largest layer-two (L2) solutions that utilize Optimistic rollup technology to scale the Ethereum network.
 Source: https://l2fees.info/
 At present, Ethereum&amp;rsquo;s high transaction fees and limited throughput of ~15 transactions per second (TPS) severely limits its scalability.</description>
+    </item>
+    
+    <item>
+      <title>Pyfinny - DCF and Comparables Analysis with Python</title>
+      <link>/project/pyfinny/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pyfinny/</guid>
+      <description>About the Project Introduction This is a command-line interface (CLI) tool for analyzing financial statements and performing discounted cash flow (DCF) and comparables analysis. The tool uses the Financial Modelling Prep API, which requires an API key. The Github repository with source code and release binaries can be found here
+Requirements Python 3.10 installation Account with Financial Modeling Prep Bash or Zsh terminal. Windows users are highly advised to use WSL Optional Requirements Sqlite Browser to view and manipulate the data in the database Homebrew and Git to develop the application Installation Note: use python3,pip3 on MacOS and python, pip on Windows</description>
     </item>
     
     <item>

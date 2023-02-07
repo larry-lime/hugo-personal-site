@@ -1,6 +1,6 @@
 ---
 title: "Pyfinny - DCF and Comparables Analysis with Python"
-date: 2022-08-22
+date: 2022-02-23
 draft: false
 ShowToc: true
 ShowBreadCrumbs: true

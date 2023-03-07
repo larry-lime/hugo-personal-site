@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>TAMID Tech Workshop | Lawrence Lim</title>
+<meta name="keywords" content="">
+<meta name="description" content="High Level Concepts Why use the terminal? Makes you much better at using your OS More configuration Increase efficiency and productivity You just have to sometimes CLI tools Git Package managers It&rsquo;s fun Makes you look cool Makes you feel like a coder Types of shells Z-Shell Bash Powershell Learning Shell Commands Basic Navigation cd: change directory cd ~: Navigate to your home directory cd /: Navigate to your root directory pwd: present working directory (understand where you are) ls: list files rm: delete files/directory mv: move and rename files touch: create a file mkdir: make a directory rmdir: remove a directory Understanding Your File System cd .">
+<meta name="author" content="Lawrence Lim">
+<link rel="canonical" href="/article/tamid-tech-workshop/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bccfefac377bc340f06c260aed1bddf49a4354816d7c570d6aac75a997986c95.css" integrity="sha256-vM/vrDd7w0DwbCYK7Rvd9JpDVIFtfFcNaqx1qZeYbJU=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/article/tamid-tech-workshop/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="TAMID Tech Workshop" />
+<meta property="og:description" content="High Level Concepts Why use the terminal? Makes you much better at using your OS More configuration Increase efficiency and productivity You just have to sometimes CLI tools Git Package managers It&rsquo;s fun Makes you look cool Makes you feel like a coder Types of shells Z-Shell Bash Powershell Learning Shell Commands Basic Navigation cd: change directory cd ~: Navigate to your home directory cd /: Navigate to your root directory pwd: present working directory (understand where you are) ls: list files rm: delete files/directory mv: move and rename files touch: create a file mkdir: make a directory rmdir: remove a directory Understanding Your File System cd ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/article/tamid-tech-workshop/" /><meta property="article:section" content="article" />
+<meta property="article:published_time" content="2023-03-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-07T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="TAMID Tech Workshop"/>
+<meta name="twitter:description" content="High Level Concepts Why use the terminal? Makes you much better at using your OS More configuration Increase efficiency and productivity You just have to sometimes CLI tools Git Package managers It&rsquo;s fun Makes you look cool Makes you feel like a coder Types of shells Z-Shell Bash Powershell Learning Shell Commands Basic Navigation cd: change directory cd ~: Navigate to your home directory cd /: Navigate to your root directory pwd: present working directory (understand where you are) ls: list files rm: delete files/directory mv: move and rename files touch: create a file mkdir: make a directory rmdir: remove a directory Understanding Your File System cd ."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Articles",
+      "item": "/article/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "TAMID Tech Workshop",
+      "item": "/article/tamid-tech-workshop/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "TAMID Tech Workshop",
+  "name": "TAMID Tech Workshop",
+  "description": "High Level Concepts Why use the terminal? Makes you much better at using your OS More configuration Increase efficiency and productivity You just have to sometimes CLI tools Git Package managers It\u0026rsquo;s fun Makes you look cool Makes you feel like a coder Types of shells Z-Shell Bash Powershell Learning Shell Commands Basic Navigation cd: change directory cd ~: Navigate to your home directory cd /: Navigate to your root directory pwd: present working directory (understand where you are) ls: list files rm: delete files/directory mv: move and rename files touch: create a file mkdir: make a directory rmdir: remove a directory Understanding Your File System cd .",
+  "keywords": [
+    
+  ],
+  "articleBody": "High Level Concepts Why use the terminal? Makes you much better at using your OS More configuration Increase efficiency and productivity You just have to sometimes CLI tools Git Package managers It’s fun Makes you look cool Makes you feel like a coder Types of shells Z-Shell Bash Powershell Learning Shell Commands Basic Navigation cd: change directory cd ~: Navigate to your home directory cd /: Navigate to your root directory pwd: present working directory (understand where you are) ls: list files rm: delete files/directory mv: move and rename files touch: create a file mkdir: make a directory rmdir: remove a directory Understanding Your File System cd ..: Navigate to parent directory cd -: Navigate to previous directory echo: printing variable Declaring environment variables Declare and asign value to variable with VAR=\"string\" (spaces matter) Print value of variable with echo $VAR *: All the files in your pwd String matching *string*: all filenames that contain string *string: all filenames that end with string string*: all filenames that start with string Doing More with your Terminal clear: clear the terminal screen cat: print files in your terminal echo \"string\" \u003e filename: adds string to filename. Creates file if one does not exist echo \"strong\" \u003e\u003e filename: appends string to filename Chaining commands command 1 \u0026\u0026 command 2: command 2 executes if command 1 was successful command 1 ; command 2: command 2 executes no matter if command one was successful or not Using Flags rm -r: remove recursively (delete directory with contents) rm -rf: remove recursively and force ls -a: list all files (including hidden files) --help man: read the manual page for the commands Package Managers \u0026 Additional Tools Common Package Managers MacOS Homebrew MacPorts Linux Apt - Debian based distros Pacman - Arch based distros Beyond the Basics Shell Scripting Sourcing files Making files executable Z-Shell environment Aliases Functions Keybinds Plugins and Tools Z-Shell plugins oh my zsh Syntax highlighting AI autocomplete Lawrence’s Favorite Command line tools fzf: command line fuzzy finder ripgrep/grep: search for string in files fd: better find command exa: better ls and tree command bat: better cat command Portable development environment Intermediate to advanced configurations Exercises Exercise 1 Navigate to your home directory List all the files and directories in your current directory Create a directory called test using Change into the test directory Create a file called file.txt List the contents of the test directory Rename the file.txt file to newfile.txt List the contents of the test directory again Change back to the parent directory Remove the test directory and all its contents Exercise 2 Navigate to your home directory Create a directory called temp Create two files, temp1.txt, temp2.txt Add the string \"Hello Temp 1!\" to temp1.txt (without opening VScode) Add the string \"Hello Temp 2!\" to temp2.txt Append the string \"New Line\" to temp2.txt Combine the contents of temp1 and temp2 and add that to a file called test Delete all contents of temp directory and all the files in it (using one command) ",
+  "wordCount" : "502",
+  "inLanguage": "en",
+  "datePublished": "2023-03-07T00:00:00Z",
+  "dateModified": "2023-03-07T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Lawrence Lim"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/article/tamid-tech-workshop/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lawrence Lim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/img/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Lawrence Lim (Alt + H)">Lawrence Lim</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/%E4%B8%AD%E6%96%87/" title=":zh:"
+                            aria-label=":zh:">中文</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/project/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="/article/" title="Articles">
+                    <span>Articles</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/article/">Articles</a></div>
+    <h1 class="post-title">
+      TAMID Tech Workshop
+    </h1>
+    <div class="post-meta"><span title='2023-03-07 00:00:00 +0000 UTC'>March 7, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Lawrence Lim
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#high-level-concepts" aria-label="High Level Concepts">High Level Concepts</a><ul>
+                        
+                <li>
+                    <a href="#why-use-the-terminal" aria-label="Why use the terminal?">Why use the terminal?</a></li>
+                <li>
+                    <a href="#types-of-shells" aria-label="Types of shells">Types of shells</a></li></ul>
+                </li>
+                <li>
+                    <a href="#learning-shell-commands" aria-label="Learning Shell Commands">Learning Shell Commands</a><ul>
+                        
+                <li>
+                    <a href="#basic-navigation" aria-label="Basic Navigation">Basic Navigation</a></li>
+                <li>
+                    <a href="#understanding-your-file-system" aria-label="Understanding Your File System">Understanding Your File System</a></li>
+                <li>
+                    <a href="#doing-more-with-your-terminal" aria-label="Doing More with your Terminal">Doing More with your Terminal</a></li>
+                <li>
+                    <a href="#using-flags" aria-label="Using Flags">Using Flags</a></li></ul>
+                </li>
+                <li>
+                    <a href="#package-managers--additional-tools" aria-label="Package Managers &amp;amp; Additional Tools">Package Managers &amp; Additional Tools</a><ul>
+                        
+                <li>
+                    <a href="#common-package-managers" aria-label="Common Package Managers">Common Package Managers</a></li></ul>
+                </li>
+                <li>
+                    <a href="#beyond-the-basics" aria-label="Beyond the Basics">Beyond the Basics</a><ul>
+                        
+                <li>
+                    <a href="#shell-scripting" aria-label="Shell Scripting">Shell Scripting</a></li>
+                <li>
+                    <a href="#plugins-and-tools" aria-label="Plugins and Tools">Plugins and Tools</a></li>
+                <li>
+                    <a href="#portable-development-environment" aria-label="Portable development environment">Portable development environment</a></li></ul>
+                </li>
+                <li>
+                    <a href="#exercises" aria-label="Exercises">Exercises</a><ul>
+                        
+                <li>
+                    <a href="#exercise-1" aria-label="Exercise 1">Exercise 1</a></li>
+                <li>
+                    <a href="#exercise-2" aria-label="Exercise 2">Exercise 2</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="high-level-concepts">High Level Concepts<a hidden class="anchor" aria-hidden="true" href="#high-level-concepts">#</a></h2>
+<h3 id="why-use-the-terminal">Why use the terminal?<a hidden class="anchor" aria-hidden="true" href="#why-use-the-terminal">#</a></h3>
+<ul>
+<li>Makes you much better at using your OS
+<ul>
+<li>More configuration</li>
+<li>Increase efficiency and productivity</li>
+</ul>
+</li>
+<li>You just have to sometimes
+<ul>
+<li>CLI tools</li>
+<li>Git</li>
+<li>Package managers</li>
+</ul>
+</li>
+<li>It&rsquo;s fun
+<ul>
+<li>Makes you look cool</li>
+<li>Makes you feel like a coder</li>
+</ul>
+</li>
+</ul>
+<h3 id="types-of-shells">Types of shells<a hidden class="anchor" aria-hidden="true" href="#types-of-shells">#</a></h3>
+<ul>
+<li>Z-Shell</li>
+<li>Bash</li>
+<li>Powershell</li>
+</ul>
+<h2 id="learning-shell-commands">Learning Shell Commands<a hidden class="anchor" aria-hidden="true" href="#learning-shell-commands">#</a></h2>
+<h3 id="basic-navigation">Basic Navigation<a hidden class="anchor" aria-hidden="true" href="#basic-navigation">#</a></h3>
+<ul>
+<li><code>cd</code>: change directory</li>
+<li><code>cd ~</code>: Navigate to your home directory</li>
+<li><code>cd /</code>: Navigate to your root directory</li>
+<li><code>pwd</code>: present working directory (understand where you are)</li>
+<li><code>ls</code>: list files</li>
+<li><code>rm</code>: delete files/directory</li>
+<li><code>mv</code>: move and rename files</li>
+<li><code>touch</code>: create a file</li>
+<li><code>mkdir</code>: make a directory</li>
+<li><code>rmdir</code>: remove a directory</li>
+</ul>
+<h3 id="understanding-your-file-system">Understanding Your File System<a hidden class="anchor" aria-hidden="true" href="#understanding-your-file-system">#</a></h3>
+<ul>
+<li><code>cd ..</code>: Navigate to parent directory</li>
+<li><code>cd -</code>: Navigate to previous directory</li>
+<li><code>echo</code>: printing variable</li>
+<li>Declaring environment variables
+<ul>
+<li>Declare and asign value to variable with <code>VAR=&quot;string&quot;</code> (spaces matter)</li>
+<li>Print value of variable with <code>echo $VAR</code></li>
+</ul>
+</li>
+<li><code>*</code>: All the files in your pwd</li>
+<li>String matching
+<ul>
+<li><code>*string*</code>: all filenames that contain string</li>
+<li><code>*string</code>: all filenames that end with string</li>
+<li><code>string*</code>: all filenames that start with string</li>
+</ul>
+</li>
+</ul>
+<h3 id="doing-more-with-your-terminal">Doing More with your Terminal<a hidden class="anchor" aria-hidden="true" href="#doing-more-with-your-terminal">#</a></h3>
+<ul>
+<li><code>clear</code>: clear the terminal screen</li>
+<li><code>cat</code>: print files in your terminal</li>
+<li><code>echo &quot;string&quot; &gt; filename</code>: adds string to filename. Creates file if one does not exist</li>
+<li><code>echo &quot;strong&quot; &gt;&gt; filename</code>: appends string to filename</li>
+<li>Chaining commands
+<ul>
+<li><code>command 1 &amp;&amp; command 2</code>: command 2 executes if command 1 was successful</li>
+<li><code>command 1 ; command 2</code>: command 2 executes no matter if command one was successful or not</li>
+</ul>
+</li>
+</ul>
+<h3 id="using-flags">Using Flags<a hidden class="anchor" aria-hidden="true" href="#using-flags">#</a></h3>
+<ul>
+<li><code>rm -r</code>: remove recursively (delete directory with contents)</li>
+<li><code>rm -rf</code>: remove recursively and force</li>
+<li><code>ls -a</code>: list all files (including hidden files)</li>
+<li><code>--help</code></li>
+<li><code>man</code>: read the manual page for the commands</li>
+</ul>
+<h2 id="package-managers--additional-tools">Package Managers &amp; Additional Tools<a hidden class="anchor" aria-hidden="true" href="#package-managers--additional-tools">#</a></h2>
+<h3 id="common-package-managers">Common Package Managers<a hidden class="anchor" aria-hidden="true" href="#common-package-managers">#</a></h3>
+<ul>
+<li>MacOS
+<ul>
+<li>Homebrew</li>
+<li>MacPorts</li>
+</ul>
+</li>
+<li>Linux
+<ul>
+<li>Apt - Debian based distros</li>
+<li>Pacman - Arch based distros</li>
+</ul>
+</li>
+</ul>
+<h2 id="beyond-the-basics">Beyond the Basics<a hidden class="anchor" aria-hidden="true" href="#beyond-the-basics">#</a></h2>
+<h3 id="shell-scripting">Shell Scripting<a hidden class="anchor" aria-hidden="true" href="#shell-scripting">#</a></h3>
+<ul>
+<li>Sourcing files</li>
+<li>Making files executable</li>
+<li>Z-Shell environment
+<ul>
+<li>Aliases</li>
+<li>Functions</li>
+<li>Keybinds</li>
+</ul>
+</li>
+</ul>
+<h3 id="plugins-and-tools">Plugins and Tools<a hidden class="anchor" aria-hidden="true" href="#plugins-and-tools">#</a></h3>
+<ul>
+<li>Z-Shell plugins
+<ul>
+<li><a href="https://ohmyz.sh/">oh my zsh</a></li>
+<li>Syntax highlighting</li>
+<li>AI autocomplete</li>
+</ul>
+</li>
+<li>Lawrence&rsquo;s Favorite Command line tools
+<ul>
+<li><code>fzf</code>: command line fuzzy finder</li>
+<li><code>ripgrep/grep</code>: search for string in files</li>
+<li><code>fd</code>: better <code>find</code> command</li>
+<li><code>exa</code>: better <code>ls</code> and <code>tree</code> command</li>
+<li><code>bat</code>: better <code>cat</code> command</li>
+</ul>
+</li>
+</ul>
+<h3 id="portable-development-environment">Portable development environment<a hidden class="anchor" aria-hidden="true" href="#portable-development-environment">#</a></h3>
+<ul>
+<li>Intermediate to advanced configurations</li>
+</ul>
+<h2 id="exercises">Exercises<a hidden class="anchor" aria-hidden="true" href="#exercises">#</a></h2>
+<h3 id="exercise-1">Exercise 1<a hidden class="anchor" aria-hidden="true" href="#exercise-1">#</a></h3>
+<ol>
+<li>Navigate to your home directory</li>
+<li>List all the files and directories in your current directory</li>
+<li>Create a directory called <code>test</code> using</li>
+<li>Change into the <code>test</code> directory</li>
+<li>Create a file called <code>file.txt</code></li>
+<li>List the contents of the test directory</li>
+<li>Rename the <code>file.txt</code> file to <code>newfile.txt</code></li>
+<li>List the contents of the test directory again</li>
+<li>Change back to the parent directory</li>
+<li>Remove the <code>test</code> directory and all its contents</li>
+</ol>
+<h3 id="exercise-2">Exercise 2<a hidden class="anchor" aria-hidden="true" href="#exercise-2">#</a></h3>
+<ol>
+<li>Navigate to your home directory</li>
+<li>Create a directory called <code>temp</code></li>
+<li>Create two files, <code>temp1.txt</code>, <code>temp2.txt</code></li>
+<li>Add the string <code>&quot;Hello Temp 1!&quot;</code> to <code>temp1.txt</code> (without opening VScode)</li>
+<li>Add the string <code>&quot;Hello Temp 2!&quot;</code> to <code>temp2.txt</code></li>
+<li>Append the string <code>&quot;New Line&quot;</code> to <code>temp2.txt</code></li>
+<li>Combine the contents of <code>temp1</code> and <code>temp2</code> and add that to a file called <code>test</code></li>
+<li>Delete all contents of <code>temp</code> directory and all the files in it (using one command)</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="/">Lawrence Lim</a></span>
+    
+    
+    
+    
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

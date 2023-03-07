@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/article/</loc>
-    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
@@ -14,6 +14,22 @@
                 hreflang="en"
                 href="/article/"
                 />
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="中文"
+                href="/%E4%B8%AD%E6%96%87/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/article/tamid-tech-workshop/</loc>
+    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
     <lastmod>2022-11-02T00:00:00+00:00</lastmod>
@@ -33,19 +49,6 @@
   </url><url>
     <loc>/tags/html/</loc>
     <lastmod>2022-11-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="中文"
-                href="/%E4%B8%AD%E6%96%87/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
   </url><url>
     <loc>/article/personal-website/</loc>
     <lastmod>2022-11-02T00:00:00+00:00</lastmod>

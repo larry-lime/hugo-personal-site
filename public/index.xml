@@ -6,7 +6,16 @@
     <description>Recent content on Lawrence Lim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TAMID Tech Workshop</title>
+      <link>/article/tamid-tech-workshop/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/article/tamid-tech-workshop/</guid>
+      <description>High Level Concepts Why use the terminal? Makes you much better at using your OS More configuration Increase efficiency and productivity You just have to sometimes CLI tools Git Package managers It&amp;rsquo;s fun Makes you look cool Makes you feel like a coder Types of shells Z-Shell Bash Powershell Learning Shell Commands Basic Navigation cd: change directory cd ~: Navigate to your home directory cd /: Navigate to your root directory pwd: present working directory (understand where you are) ls: list files rm: delete files/directory mv: move and rename files touch: create a file mkdir: make a directory rmdir: remove a directory Understanding Your File System cd .</description>
+    </item>
+    
     <item>
       <title>Personal Website Workshop</title>
       <link>/article/personal-website/</link>

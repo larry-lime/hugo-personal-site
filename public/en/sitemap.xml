@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/article/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-24T21:15:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-24T21:15:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="中文"
@@ -27,6 +27,9 @@
                 hreflang="en"
                 href="/"
                 />
+  </url><url>
+    <loc>/article/workout-plan/</loc>
+    <lastmod>2023-05-24T21:15:00+08:00</lastmod>
   </url><url>
     <loc>/article/tamid-tech-workshop/</loc>
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
